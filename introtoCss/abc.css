@@ -1,0 +1,44 @@
+/* ExternalCSS*/
+*{
+    /* background-color: blue; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: burlywood;
+}
+.heading{
+    color: bisque;
+    background-color: cadetblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.para{
+    font-family: 'Oswald', sans-serif;
+    color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1{
+    background-color: cadetblue;
+    color: aqua;
+}
+p{
+    color: brown;
+}
+h2{
+    background-color: black;
+    color: bisque;
+}  */

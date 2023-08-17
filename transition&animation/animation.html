@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            text-align: center;
+            line-height: 100px;
+            border-radius: 4px;
+            color: antiquewhite;
+
+            /* animation-name: animation1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate; */
+            /* animation-play-state: running; */
+            animation: animation1 2s infinite alternate-reverse;
+        }
+
+        @keyframes animation1{
+            from{
+                border-radius: 4px;
+                color: aliceblue;
+                background-color: brown;
+            }
+            to{
+                border-radius: 50%;
+                color: black;
+                background-color: aqua;
+            }
+        }
+
+        .box:hover{
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Animation
+    </div>
+</body>
+</html>

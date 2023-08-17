@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms in HTML5</h1>
+    <form action="#">
+        <label for="name">Enter Name:</label>
+        <input type="text" value="" id="name"><br><br>
+        <label for="age">Enter Age: </label>
+        <input type="text" value="" id="age"><br><br>
+        <label for="email">Enter Email: </label>
+        <input type="email" id="email"> <br><br>
+        <label for="pass">Enter Password:</label>
+        <input type="password" value="" id="pass"><br><br>
+
+        <label for="d">DOB: </label>
+        <input type="date" name="" id="d">
+        
+        <br>
+
+        <label>Gender:</label><br>
+
+        <input type="radio" value="Male" name="gender" id="male">
+        <label for="male">male</label>
+
+        <input type="radio" value="Female" name="gender" id="female">
+        <label for="female">female</label><br>
+
+        <label>Are You an Employed Person:</label><br />    
+
+        <input type="radio" value="Yes" id="Yes" name="one" />
+        <label for="Yes">Yes</label><br> 
+
+        <input type="radio" value="No" id="No" name="one" />
+        <label for="No">No</label><br> <br />
+
+        <fieldset>
+            <legend>Hobbies</legend>
+            <input type="checkbox" id="swim">
+            <label for="swim">Swiming</label>
+            <input type="checkbox" id="cric">
+            <label for="cric">Cricket</label>
+            <input type="checkbox" id="football">
+            <label for="football">Football</label>
+        </fieldset>
+
+        <br>
+        <p>Select country from below list:</p>
+        <select name="country">
+            <option value="pak">Pakistan</option>
+            <option value="ind">India</option>
+            <option value="ch">China</option>
+            <option value="iran">Iran</option>
+            <option value="iraq">Iraq</option>
+            <option value="sri" selected>Srilanka</option>
+            <option value="can">Canada</option>
+        </select>
+        <br><br>
+        <label for="">Upload File:</label>
+        <input type="file" name="" id="">
+        <br>
+
+        <label>Downloading..</label>
+        <progress value="60" max="100" ></progress>
+        <br><br>
+        <input type="range" name="" id=""><br>
+
+
+        <input type="button" value="Press">
+        <input type="reset" value="Reset Form"> <br><br>
+        <input type="submit" value="Submit Form">
+    </form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+.container{
+    width: 700px;
+    background-color: lightcyan;
+    margin: 70px 0px 0px 50px;
+
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr) 25%; */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 100px 200px auto; */
+    grid-template-rows: 200px 200px;
+    
+    /* grid-column-gap: 10px;
+    grid-row-gap: 10px; */
+
+    /* Shorthand for grid gaps */
+    grid-gap: 10px 20px;
+
+}
+
+.item-one{
+    background-color: blue;
+    /* grid-column-start: 2;
+    grid-column-end: 3; */
+    /* shorthand */
+    /* grid-column: 2/3; */
+
+
+    /* grid-row-start: 1;
+    grid-row-end: 2; */
+    /* grid-row: 1/2; */
+
+    /*One line shorthand RS CS RE CE */
+    grid-area: 1/2/2/3;
+}
+.item-two{
+    background-color: burlywood;
+}
+.item-three{
+    background-color: darkred;
+}
+.item-four{
+    background-color: yellow;
+}
+.item-five{
+    background-color: aqua;
+}
+.item-six{
+    background-color: cadetblue;
+}
