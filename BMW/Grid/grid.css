@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conatiner{
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr
+                        4fr
+                        1fr;
+
+    grid-template-areas: "header header header"
+                          "nav holy sider"
+                          "footer footer footer"; 
+                          
+    grid-gap: 10px;
+}
+
+.item1{
+    background-color: orange;
+    grid-area: header;
+}
+
+.item2{
+    background-color: green;
+    grid-area: nav;
+}
+
+.item3{
+    background-color: hotpink;
+    grid-area: holy;
+}
+
+.item4{
+    background-color: yellow;
+    grid-area: sider;
+}
+
+.item5{
+    background-color: peru;
+    grid-area: footer;
+}

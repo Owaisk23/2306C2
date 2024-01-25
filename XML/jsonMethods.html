@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JSON Methods</h1>
+
+
+    <script>
+
+        // let name = "Aqsa";
+
+        // localStorage.setItem("name", name);
+
+        // let abc = localStorage.getItem("name")
+        // console.log(abc)
+
+        let cricketer = {
+            "Name": "Babar Azam",
+            "Team": "Pakistan",
+            "Profession": "Batsman" 
+        }
+
+        // console.log(cricketer.Name)
+        console.log("Before convertion " + typeof(cricketer))
+
+        // stringify
+
+        let abc = JSON.stringify(cricketer)
+        console.log("After convertion " + typeof(abc))
+
+        localStorage.setItem("cricketer", abc)
+
+
+        let cric = JSON.parse(localStorage.getItem("cricketer"));
+        // let cric = localStorage.getItem("cricketer");
+        
+        console.log(typeof(cric))
+
+        console.log(cric.Name);
+    </script>
+</body>
+</html>

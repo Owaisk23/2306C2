@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-model href="first.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?> -->
+<!-- <?xml-model href="first.dtd" type="application/xml-dtd"?>
+<?xml-stylesheet href="first.xsl" type="text/xsl"?> -->
+<mobileshop>
+    <mobile>
+        <id>001</id>
+        <name>Samsung A32</name>
+        <price>49000</price>
+        <brand>Samsung</brand>
+    </mobile>
+    <mobile>
+        <id>002</id>
+        <name>Samsung A31</name>
+        <price>2700</price>
+        <brand>Samsung</brand>
+    </mobile>
+    <mobile>
+        <id>003</id>
+        <name>Techno Spark</name>
+        <price>49000</price>
+        <brand>Techno</brand>
+    </mobile>
+    <mobile>
+        <id>004</id>
+        <name>Techno Camon</name>
+        <price>2500</price>
+        <brand>Techno</brand>
+    </mobile>
+    <mobile>
+        <id>005</id>
+        <name>Iphone 12</name>
+        <price>150000</price>
+        <brand>Iphone</brand>
+    </mobile>
+</mobileshop>

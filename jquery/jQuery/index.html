@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery.com_jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h1 id="heading">Introduction To Python</h1>
+                <p id="para">CSS ipsum dolor sit amet consectetur adipisicing elit. Nostrum, porro?</p>
+                <p id="para">R ipsum dolor sit amet consectetur adipisicing elit. Nostrum, porro?</p>
+                <p id="para">Java ipsum dolor sit amet consectetur adipisicing elit. Nostrum, porro?</p>
+            </div>
+            <div class="col-md-4">
+                <h4 id="qty">What is the capital of pakistan?</h4>
+                <ul>
+                    <li>Lahore</li>
+                    <li>Karachi</li>
+                    <li>Islamabad</li>
+                    <li>Multan</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4 id="qty">Mouse event</h4>
+                <button id="btn1">Click</button>
+                <button id="btn2">Double Click</button>
+                <button id="btn3">Contextmenu</button>
+            </div>
+            <form id="sform">
+            <div class="col-md-12 mt-3">
+              <input type="text " class="form-control" placeholder="Username" id="un">
+            </div>
+            <div class="col-md-12 mt-3">
+              <input type="text " class="form-control" placeholder="Fullname" id="fn">
+            </div>
+            <div class="col-md-12 mt-3">
+              <input type="text " class="form-control" placeholder="Email" id="email">
+            </div>
+            <div class="col-md-12 mt-3">
+              <select name="" id="country" class="form-control">
+                <option value="England">England</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="France">France</option>
+              </select>
+            </div>
+            <div class="col-md-12 mt-3">
+              <!-- <input type="button " class="btn btn-success" value="submit" id="btnsub"> -->
+              <button type="submit" class="btn btn-info">Click</button>
+            </div>
+            </form>
+            <div class="col-md-4 d-grid  mt-3">
+                <button id="btnhide" class="btn btn-primary">Hide</button>
+            </div>
+            <div class="col-md-4 d-grid mt-3">
+                <button id="btnshow" class="btn btn-primary">Show</button>
+            </div>
+            <div class="col-md-4 d-grid  mt-3">
+                <button id="btntog" class="btn btn-primary">Toggle</button>
+            </div>
+
+            <div class="col-md-12 mt-3" id="demo">
+              <h1>CSS</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum soluta ex aliquid animi quidem, beatae eligendi omnis consequatur at necessitatibus!</p>
+              </div>
+        </div>
+    </div>
+    
+    <script>
+        $(document).ready(function(){
+
+            // var data=$('#heading').html();
+            // console.log(data);
+//---------------------------------------------
+            // $('ul li:eq(2)').css('color',"green")
+            // $('ul li:gt(2)').css('color',"red")
+            // $('ul li:lt(2)').css('color',"red")
+            // $('p:first').css({'color':'red','font-family':'algerian'})
+
+//---------------------------------------------events mouse
+            // $('#btn1').click(function(){
+            //     $('#heading').css('color','blue')
+            // })
+            // $('#btn2').dblclick(function(){
+            //     $('#heading').css('color','purple')
+            // })
+            // $('#btn3').contextmenu(function(){
+            //     $('#heading').css('color','red')
+            // })
+            // $('#heading').mouseenter(function(){
+            //     $('#heading').css('color','pink')
+            // })
+            // $('#heading').mouseleave(function(){
+            //     $('#heading').css('color','#fea')
+            // })
+
+
+    //---------------------------------------------events keyboard
+            // $('#un').keypress(function(){
+            //     $('#un').css('border','3px solid green')
+            // })
+            //  $('#un').keydown(function(){
+            //     $('#un').css('border','3px solid green')
+            // })
+            // $('#un').keyup(function(){
+            //     $('#un').css('border','3px solid blue')
+            // })
+            // $('#fn').keypress(function(){
+            //     $('#fn').css('border','3px solid black')
+            // })
+            // $('#fn').focus(function(){
+            //     $('#fn').css('background','green')
+            // })
+            // $('#fn').blur(function(){
+            //     $('#fn').css('background','#feb')
+            // })
+            // $('#fn').select(function(){
+            //     $('#fn').css('background','yellow')
+            // })
+            // $('#country').change(function(){
+            //     var name=$(this).val();
+            //     alert(name);
+            // })
+            $('#sform').submit(function(){
+                
+                alert("register");
+            })
+
+//----------------------------------------
+        $('#btnhide').click(function(){
+            $('#demo').hide(1000,function(){
+                alert("Hide hogaya")
+            })
+        })
+        $('#btnshow').click(function(){
+            $('#demo').show('slow')
+        })
+        $('#btntog').click(function(){
+            $('#demo').toggle('slow')
+        })
+        })
+      /*  $(function(){
+            var data=$('#para').html();
+            console.log(data);
+        })*/
+    </script>
+</body>
+</html>

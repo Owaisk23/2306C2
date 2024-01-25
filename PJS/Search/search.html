@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="search" placeholder="Search here...!" id="searchbox">
+
+    <ol id="list">
+
+    </ol>
+    <script>
+        let movies = [
+            "The Shawshank Redemption",
+            "The Godfather",
+            "The Dark Knight",
+            "Pulp Fiction",
+            "Schindler's List",
+            "The Lord of the Rings: The Return of the King",
+            "Fight Club",
+            "Forrest Gump",
+            "Inception",
+            "The Matrix",
+            "The Silence of the Lambs",
+            "The Usual Suspects",
+            "The Godfather: Part II",
+            "Seven Samurai",
+            "Goodfellas",
+            "The Empire Strikes Back",
+            "The Shawshank Redemption",
+            "The Dark Knight",
+            "The Godfather",
+            "Pulp Fiction",
+            "The Lord of the Rings: The Fellowship of the Ring",
+            "The Lord of the Rings: The Two Towers",
+            "The Matrix",
+            "Forrest Gump",
+            "Schindler's List",
+            "Inception",
+            "Fight Club",
+            "The Silence of the Lambs",
+            "The Usual Suspects",
+            "The Godfather: Part II",
+            "Seven Samurai",
+            "Goodfellas",
+            "The Empire Strikes Back",
+            "The Shining",
+            "The Terminator",
+            "Titanic",
+            "Gladiator",
+            "Casablanca",
+            "The Wizard of Oz",
+            "Gone with the Wind",
+            "Avatar",
+            "The Godfather: Part III",
+            "The Green Mile",
+            "The Dark Knight Rises",
+            "The Shawshank Redemption",
+            "The Godfather",
+            "Pulp Fiction",
+            "Schindler's List",
+            "The Lord of the Rings: The Return of the King",
+            "Fight Club",
+            "Forrest Gump",
+            "Inception",
+            "The Matrix",
+            "The Silence of the Lambs",
+            "The Usual Suspects",
+            "The Godfather: Part II",
+            "Seven Samurai",
+            "Goodfellas",
+            "The Empire Strikes Back",
+            "The Shawshank Redemption",
+            "The Dark Knight",
+            "The Godfather",
+            "Pulp Fiction",
+            "The Lord of the Rings: The Fellowship of the Ring",
+            "The Lord of the Rings: The Two Towers",
+            "The Matrix",
+            "Forrest Gump",
+            "Schindler's List",
+            "Inception",
+            "Fight Club",
+            "The Silence of the Lambs",
+            "The Usual Suspects",
+            "The Godfather: Part II",
+            "Seven Samurai",
+            "Goodfellas",
+            "The Empire Strikes Back",
+            "The Shining",
+            "The Terminator",
+            "Titanic",
+            "Gladiator",
+            "Casablanca",
+            "The Wizard of Oz",
+            "Gone with the Wind",
+            "Avatar",
+            "The Godfather: Part III",
+            "The Green Mile",
+            "The Dark Knight Rises"
+        ];
+
+        let newMovies = movies.map((movie) => {
+            return movie.toLowerCase();
+        });
+        console.log(newMovies)
+        let searchbox = document.getElementById('searchbox');
+
+        let list = document.getElementById('list');
+
+        let Search = () => {
+            let query = searchbox.value.toLowerCase();
+
+            let result = newMovies.filter((movie)=>{
+                if(movie.includes(query)) return movie;
+            })
+
+
+            if(result.length == 0){
+                list.innerHTML = `Oops movie not found😑`
+            }else{
+                list.innerHTML = "";
+                result.forEach((element) =>{
+                    list.innerHTML += `<li>${element}</li>`
+                });
+            }
+        }
+        searchbox.addEventListener('keyup',Search);
+    </script>
+</body>
+
+</html>
+
+

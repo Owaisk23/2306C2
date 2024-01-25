@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        img{
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="product-list">
+                    <ul class="list-inline">
+                        <li class="list-inline-item" data-filter="*">All</li>
+                        <li class="list-inline-item" data-filter=".men">Men</li>
+                        <li class="list-inline-item" data-filter=".women">Women</li>
+                        <li class="list-inline-item" data-filter=".bag">Bag</li>
+                        <li class="list-inline-item" data-filter=".shoe">Shoe</li>
+                        <li class="list-inline-item" data-filter=".cap">Cap</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="product-item">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="images/product-1.jpg" alt="" class="item women">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/product-2.jpg" alt="" class="item women">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/product-3.jpg" alt="" class="item men">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/product-4.jpg" alt="" class="item men">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/product-5.jpg" alt="" class="item cap">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/product-6.jpg" alt="" class="item women">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/product-7.jpg" alt="" class="item bags">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/product-8.jpg" alt="" class="item men">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/product-9.jpg" alt="" class="item shoe">
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+    
+
+
+
+
+       <script src="js/jquery.com_jquery-3.7.1.min.js"></script>
+       <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+       <script>
+        $('.product-item').isotope({
+            itemSelector: '.item',
+            layoutMode: 'fitRows',
+            })
+
+            $('.product-list ul li').click(function(){
+            $('.product-list ul li').removeClass('btn btn-warning');
+            $(this).addClass('btn btn-warning');
+            var selector = $(this).attr('data-filter');
+            $(".product-item").isotope({
+                filter:selector
+            });
+            return false      });
+
+       </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.navbar-nav .nav-item{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(68, 66, 66);
+}
+.navbar-brand .navbar-text{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(192, 146, 76);
+}
+.section_padding{
+    padding: 50px 0px;
+}

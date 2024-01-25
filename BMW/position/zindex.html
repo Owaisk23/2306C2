@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            border: 1px solid black;
+        }
+        .item1{
+            background-color: antiquewhite;
+            top: 100px;
+            left: 50px;
+            z-index: 1;
+        }
+        .item2{
+            background-color: rebeccapurple;
+            top: 150px;
+            left: 100px;
+        }
+        .item3{
+            background-color: blue;
+            top: 200px;
+            left: 150px;
+            z-index: -1;
+        }
+        .item4{
+            background-color: red;
+            top: 250px;
+            left: 200px;
+            z-index: -2;
+        }
+    </style>
+</head>
+<body>
+    <div class="item1"></div>
+    <div class="item2"></div>
+    <div class="item3"></div>
+    <div class="item4"></div>
+</body>
+</html>

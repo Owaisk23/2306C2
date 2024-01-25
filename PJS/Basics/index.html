@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Basics in Javascript</h1>
+
+    <script>
+        // Alerts
+        // window.alert("Hello world")
+        //alert("Hello world")
+
+        // console
+        // console.log("DB connected")
+        // console.log(25+55);
+
+        // document
+        // document.write("Hello world" + "<br/>");
+        // document.write(10 + 20);
+
+        // variable
+        // var nationality = "Pakistani";
+        // console.log(nationality)
+
+        // datatypes in variable
+
+        // var nationality = "Pakistani"; //string
+
+        // var age = 25; //number
+
+        // var isFeePaid = true; //boolean
+
+        // var weight = 60.55; //floating
+        // console.log(nationality , age, isFeePaid, weight)
+
+        //Declaration & Initialization
+
+        // var age = 25; //OR
+
+        // var age; // Declaration
+        // age = 25; // Initialization
+
+        // datatypes
+        // Six types are considered to be primitives.
+
+        // a. Number -- integers, floats etc
+        // b. String -- an array of characters
+        // c. Boolean -- true or false
+        // d. Null -- No Value
+        // e. Undefined -- a declared variable but hasn’t been given a
+        // value
+        // f. Symbol -- a unique value that's
+
+
+        //         Complex Types
+        // a. Objects
+        // b. Functions
+        // c. Arrays
+
+        // var in string
+        // var fname = "OWais";
+        // console.log(fname);
+        // fname = "Abc";
+
+        // console.log(fname);
+
+        // fname = "Maria";
+        // console.log(fname); //owais ya abc
+
+
+        // 1. Text strings are always enclosed in quotes
+        // 2. You can use single or double quotes
+
+        // var name = "Mark";
+        // var nationality = 'US';
+        // var message = "What is your father's number";
+
+
+        // variables for numbers
+
+        // var age = 25;
+        // var weight = 150.5;
+        // var newWeight = weight + 20;
+        // var originalNumber = 12 + 5;
+
+        // console.log(newWeight)
+
+        // Varibale for boolean
+
+        // var isFeePaid = true;
+
+        // var examPassed = false;
+
+        // console.log(examPassed)
+
+        // var for undefined
+        // var car;
+
+        // var bike;
+
+        // console.log(bike)
+
+        // var fname = "Abdullah";
+        // console.log(fname)
+        // fname = undefined;
+
+        // console.log(fname)
+
+
+        // variable for null
+
+        // var fname = null;
+        // fname = "Sana";
+        // fname = null;
+
+        // fname = 23423;
+        // fname = true;
+
+        // console.log(typeof(fname));
+
+        // document.write(typeof fname);
+
+        // statments
+
+        // Each line below is a statement
+
+        // var a = 4; // Statement 1
+        // var b = 2; // Statement 2
+        // var c = 0; // Statement 3
+        // c = a + b; // Statement 4
+        // alert(a); // Statement 4
+        // console.log(c); // Statement 4
+
+        // End of Statement with semicolon ;
+        //         i = 3; j = 5; k = i + j;
+        // alert(i);console.log(k);
+
+
+
+        // var a = 5 // New line will end statement
+        // a * 4
+        // alert(a)
+        // console.log(a)
+
+        // alert(a)
+        // console.log(a)
+
+        // expressions
+        // a + b; // expression
+        // 4 / 2; // expression
+        // var a = 5;
+        // a * 4; // expression
+        // "John" + " " + "Doe"; // expression
+
+
+
+        // comments
+        /*
+        a = 1;
+        a = 1;
+        a = 1;
+        */
+        // a = 1;
+        // a = 1;
+
+        // Variable leggal and illegal names
+        // Legal names:
+
+        // var hello = 56;
+        // var _xyz = 44;
+        // var $work = 90;
+        // var user2 = 56;
+        // var i_info = 99;
+        // var my$work = 77;
+
+
+        // Illegal Names
+        // Illegal names:
+        // var 2user = 12; // Can't start with number
+        // var my user = 23; // Can't contains space
+        // var hello#world = 34;
+        // var my-info = 44;
+        // var my?info = 45;
+        // var my* info = 45;
+
+
+
+        // Case Sensative
+
+        // var rose = "Red";
+        // var Rose = "Yellow";
+        // var ROSE = "Pink";
+
+        // console.log(Rose);
+        // console.log(ROSE);
+        // console.log(rose);
+
+        // Camel Case
+        // var userResponse
+        // var userResponseTime
+        // var userResponseTimeLimit
+        // var response
+
+
+        // Arithmeatic Methods
+
+        // var a = +prompt("Enter a Number: ");
+        // var b = +prompt("Enter a Number: ");
+
+        // var add = a + b;
+        // console.log("Add result is: " + add);
+        // var mult = a * b;
+        // console.log("Multiply result is: " + mult);
+        // var division = a / b;
+        // console.log("Divide result is: " + division);
+        // var substract = a - b;
+        // console.log("Subtract result is: " + substract);
+        // var wholePower = a ** b;
+        // console.log("Power result is: " + wholePower);
+        // var remainder = a % b;
+        // console.log("Remainder result is: " + remainder);
+
+
+
+        // Example             Same as
+        // a += 5;             a = a + 5;
+        // a -= 5;             a = a - 5;
+        // a *= 5;             a = a * 5;
+        // a /= 5;             a = a / 5;
+        // a %= 5;             a = a % 5;
+        // a **= 5;            a = a ** 5;
+
+        // shorthand
+        // var a = 5;
+        // // a = a + 7;
+        // a += 7;
+        // console.log(a);
+
+
+        // Ambuguity BODMAS
+        // var a = 5 + 2 * 3 - 2 / 2;
+        //      7 * 3 - 1
+        //      21 - 1 
+        //      20
+
+        // DMAS
+
+        // 5 + 2 * 3 - 1
+        //  5 + 6 - 1
+        // 11 - 1
+        // 10
+
+        // console.log(a); 
+
+        // var a = 5 + 2 * (3 - 2) / 2;
+        //      5 + 2 * 1 / 2;
+        //      5 + 2 * 0.5;
+        //      5 + 1;
+        //      6;
+        // console.log(a); 
+
+        // var a = 3 + 7 * 2; // result 17
+        // var b = 8 / 4 - 1; // result 1
+        // var c = 3 % 2 + 14 - 1; // result 14
+        // var d = a + 15 * c - b / (23 + b);// 226.95833333333334
+
+        // console.log(a,b,c,d)
+
+
+
+
+        // Increment Decrement
+
+
+        // var x = 5;
+
+        // var y = x + ++x + x++ + x + x++ + ++x + x + ++x;
+        // //  5 + 6    + 6 +  7 +  7  + 9   + 9 +  10 =59
+        // console.log(x)
+        // console.log(y)
+
+        // var x = 2;
+
+        // var y = x - --x + ++x + x++ + x++ - --x + ++x + ++x - x-- + ++x + x;
+        //      2 -  1  +  2 +   2 +  3  -  3  +   4  +  5 -   4 +   5  +  5 
+
+        // console.log(x); //4
+        // console.log(y);  //29
+
+
+        // var b = --a - a++ + ++a - --a + ++a - a-- + ++a +
+        // a-- + a++ - --a - ++a; 
+
+
+
+        // var firstName = "Abraham";
+        // var lastName = "aLincoln";
+        // //concatenate firstName, space character and lastName
+        // var fullName = firstName + " " + lastName;
+        // alert(fullName);
+
+
+
+        // var a = "6" + 2; // 62
+        // console.log(a)
+        // var b = 3 + "6"; //36
+        // console.log(b) 
+        // var c = "Hello " + 2; // Hello 2
+        // console.log(c)
+        // var d = 2 + "Hello "; // 2HEllo
+        // console.log(d)
+        // var e = "Hello " + 3 + 4; // Hello 34
+        // console.log(e)
+        // var f = 3 + 4 + "Hello "; //7hello 
+        // console.log(f)
+        // var g = "Hello " + (3 + 4); //Hello 7
+        // console.log(g)
+
+        // Prompt
+
+
+        // var ques = "What is your name?";
+
+        // var defaultAns = "Owais Ahmed";
+
+        // // prompt("What is your age?" , 18);
+        // var userResponse = prompt(ques , defaultAns);
+
+        // alert("Your name is: " + userResponse);
+
+
+
+
+        // var question = "What is your age?";
+        // var age = +prompt(question);// Assuming input 12
+        // var newAge = age + 5; // It will concatenate
+        // console.log("New Age = " + newAge);
+
+
+        // var age = prompt("What is your age");//input 5
+
+        // var sum = parseInt(age) + 4;
+        // console.log(sum); // result, 9
+
+
+        // var temp = prompt("Current temp: ");
+
+        // var currTemp = parseFloat(temp) + 100;
+
+        // console.log(currTemp);
+
+
+
+        // var price = prompt("Current price: ");
+
+        // var currTemp = Number(price) + 100;
+
+        // console.log(currTemp);
+
+
+        // var a = Number(true); //returns 1
+        // var b = Number(false); //returns 0
+        // var c = Number("999"); //returns 999
+        // var d = Number("999 888"); //returns NAN
+        // var e = Number("Hello"); //returns NAN
+
+
+        // Comparsion Operators
+
+        // var a = '6';
+        // console.log(a == 6); //return T
+        // console.log(a === 6); //return F
+        // console.log(a != 6); //return F
+        // console.log(a !== 6); //return T
+        // console.log(a > 6); //return F
+        // console.log(a < 6); //return F
+        // console.log(a >= 6); //return T
+        // console.log(a <= 6); //return T
+
+
+        // Logical Operator
+
+
+
+        // b. && (AND)
+        // console.log(true && true); //T
+        // console.log(false && true); // F
+        // console.log(true && false); //F 
+        // console.log(false && false);//F
+        // // || (OR)
+        // console.log(true || true); //T
+        // console.log(false || true); // T
+        // console.log(true || false); //T 
+        // console.log(false || false);//F
+
+        // var a = 60;
+        // var b = a > 50 && a < 70;
+        // console.log(b); // return T
+
+        // var c = 80;
+        // var d = c > 50 && c < 70;
+        // console.log(d); // return F
+
+
+        // var a = 60;
+        // var b = a < 50 || a > 70;
+        // console.log(b); // return F
+
+        // var c = 80;
+        // var d = c < 50 || c > 70;
+        // console.log(d); // return T
+
+
+        //   // c. !(NOT)
+        // console.log(!true); // F
+        // console.log(!false); // T
+
+        // var a = 60;
+        // var b = !(a < 50);
+        // alert(b); //T
+
+        // var c = 80;
+        // var d = !(c > 50);
+        // alert(d);//F
+
+
+
+        //returns false, evaluation stops at first value
+        // var a = false && true && false;
+
+        // //returns false, evaluation stops at last value
+        // var b = true && true && false;
+
+        // //returns false, evaluation stops at second value
+        // var c = true && false && true;
+
+
+
+
+        // //returns true, evaluation stops at second value
+        // var d = false || true || false;
+
+        // //returns true, evaluation stops at first value
+        // var e = true || true || false;
+
+        // //returns true, evaluation stops at last value
+        // var f = false || false || true
+
+
+
+        // var age = 8;
+
+        // if (age > 9) {
+        //     console.log("Age = " + age);
+        // }else{
+        //     console.log("Under age")
+        // }
+
+
+        // var age = 15;
+
+        // if (age > 18) {
+        //     console.log("Qualifies for driving");
+        // } else {
+        //     console.log("Does not qualify for driving");
+        // }
+
+
+        // var score = 70;
+        // if (score > 80) {
+        //     console.log("Grade A");
+        //     if (score > 90) {
+        //         console.log("Reward $100")
+        //     }
+        // } else if (score >= 70 && score <= 79) {
+        //     console.log("Grade B");
+        // } else if (score >= 60 && score <= 69) {
+        //     console.log("Grade C");
+        // } else {
+        //     console.log("Failed/ Invalid Marks");
+        // }
+
+
+        // var score = 70;
+        // if (score > 80 && score <= 100) {
+        //     console.log("Grade A");
+        // }
+        // else if (score > 70 && score <= 80) {
+        //     console.log("Grade B");
+        // }
+        // else if (score > 60 && score <= 70) {
+        //     console.log("Grade C");
+        // }
+
+        // var input = prompt("Enter any Alphabet");
+        // var sameLevel = input.toLowerCase();
+        // if(sameLevel == "a" || sameLevel == "e" || sameLevel == "i" || sameLevel == "o" || sameLevel == "u"){
+
+        // console.log("It's a Vowel");
+        // }
+        // else {
+        // console.log("It's a consonants");
+        // }
+        // var input = prompt("Enter any Alphabet");
+        // var sameLevel = input.toUpperCase();
+        // if(sameLevel == "A" || sameLevel == "E" || sameLevel == "I" || sameLevel == "O" || sameLevel == "U"){
+
+        // console.log("It's a Vowel");
+        // }
+        // else {
+        // console.log("It's NOT A VOWEL");
+        // }
+
+        // For Loop
+        // initialization;
+        // Condition;
+        // expression;
+
+
+        // for (var i = 1; i <= 100; i++) {
+        //     console.log(i)
+        // }
+
+        //         for ( ; ; ){
+        // console.log("Hello");
+        // }
+
+
+
+        // var num = + prompt("Enter a number?");
+
+        // for(var i = 1; i <= 10; i++){
+        //     console.log(num + "x" + i + "=" + num*i);
+        //             // 2 x 1 = 2
+        // }
+
+        // Nested For Loop
+        // for (var i = 0; i < 3; i++) {
+        //     for (var j = 0; j < 2; j++) {
+        //         console.log("I = " + i + " J = " + j);
+        //     }
+        // }
+
+
+        // Arrays
+
+        // var mondayTemprature = 23;
+        // var tuesdayTemprature = 12;
+        // var wednesdayTemprature = 35;
+        // var thursdayTemprature = 30;
+        // var fridayTemprature = 27;
+        // var saturdayTemprature = 19;
+        // var sundayTemprature = 22;
+
+        // var temperatures = [34,12,27,65,34,28, 19,89];
+        // indexes      0,  1, 2, 3, 4, 5,  6
+
+        // console.log(temperatures);
+        // console.log(temperatures[7]);
+
+
+
+
+        //Creating an Array using array literal
+
+        // var food = ["Pizza", "Burger", "Snacks"];
+
+        //Creating an Array using new Keyword
+
+        // var foods = new Array("Pizza", "Burger", "Snacks");
+
+        // console.log(foods[2]);
+        // multiple datatypes
+        // var arr1 = ["Hello", "World", "Bye"];
+        // var arr2 = [29, 38, 16, 22];
+        // var arr3 = [true, false, true, false, false];
+        // var arr4 = [23.2, 45.8, 98.12];
+        // var arr5 = [{ name: "John" }, { name: "Jason" }];
+        // var arr6 = [74, "Hello", true, { name: "John" }];
+
+        // Array Methods
+        // pop()
+
+        // var countries = ["Pak", "Ind", "Afg","Iran"];
+        // // Remove elemnt from last
+        // console.log(countries);
+        // countries.pop();
+
+        // console.log(countries);
+
+        // push()
+
+        // var a = 80
+        // var marks = [77, 89, 90, 23, 45];
+        // add elemnt at last
+        // marks.push(a);
+
+        // console.log(marks);
+
+        // shift()
+
+        // var stds = ["Abdullah", "Ali", "Sana", "Maria", "Hafeez", "Hassan"];
+        // console.log(stds);
+        // Remove element from start
+        // stds.shift();
+
+        // console.log(stds);
+
+        // unshift()
+        // add element at start
+        // stds.unshift("Hussain", "Saad","Hanzala");
+        // console.log(stds);
+
+
+        // slice()
+        // var num = [12, 13, 15, 66, 78, 70, 102, 130, 90, 86, 45, 55]
+        // console.log(num)
+        // var sliceArray = num.slice(9, 12);
+        //                 // slice(startingIndex, EndLength)
+
+        // console.log(sliceArray)
+        // // reverse()
+        // var reverseArray = num.reverse();
+
+        // console.log(reverseArray)
+
+
+        // concat()
+        // var num = [23, 45, 67, "Abdullah"];
+        // var num1 = [32, 55, 78, 67, 45, 32];
+
+        // var concatArray = num.concat(num1);
+
+        // console.log(num);
+        // console.log(num1);
+        // console.log(concatArray);
+
+        // // includes()
+
+        // var includeNum = num1.includes(788);
+
+        // console.log(includeNum); //T/F
+
+        // splice()
+        // var stds = ["Abdullah", "Ali", "Sana", "Maria", "Hafeez", "Hassan"];
+        // console.log(stds)
+        // var spliceArray = stds.splice(2, 0, "Zainab", "Ramsha", "Basim");
+        //                         // splice(startingIndex, DeleteCount, AddElements)
+        // console.log(stds);
+
+            // toString()
+        // var number = [1, 2, 3, 4, 5, 6, 7];
+        // console.log(typeof(number));//obj
+
+        // var stringNum = number.toString();
+
+        // console.log(typeof(stringNum));//string
+        // console.log(stringNum);
+        
+
+        // filter()
+        // var oddNum =  number.filter((num) =>  num % 2 != 0);
+        // console.log(oddNum);
+        
+        // some()
+        // var someNum =  number.some((num) =>  num % 2 == 0);
+        // console.log(someNum); //true
+
+
+        // // every()
+        // var everyNum =  number.every((num) =>  num % 2 == 0);
+        // console.log(everyNum); //false
+
+        // // find()
+        // var findNum =  number.find((num) =>  num > 7);
+        // console.log(findNum);
+        // var number = [1, 2, 3, 4, 5, 6, 7];
+        // // // map
+        // const doubleNum = number.map((num) => num * 3);
+        // console.log(doubleNum);
+        
+
+        // // for-each
+        // const a = [1,2,3];
+        // a.forEach((num) => console.log(num*2));
+
+        //  // // reduce method
+        //  const sum = number.reduce((total, num) =>
+        // total + num, 0);
+        // console.log(sum) 
+
+        // var fruits = ['Apple', 'grapes', 'Banana', 'Orange', 'Orange']
+        // // //              0        1
+        // // var indexFruits = fruits.indexOf('Banana');
+        // var lastindexFruits = fruits.lastIndexOf('Orange');
+        // // console.log(indexFruits)//0
+        // console.log(lastindexFruits)//3
+        
+    </script>
+</body>
+
+</html>

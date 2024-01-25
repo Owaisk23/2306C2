@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Diff types of data in json object</h1>
+
+    <script>
+        let students = {
+            "stdName": "Affan",  //string
+            "stdAge": 21,    //number
+            "stdMarks": 82.35, //float
+            "eligible": true,  //bool
+            "stdHobbies": ["Cricket", "Swimming", "Football", "Tenis"], //array
+            "stdDesc": {"fatherName": "Ali", "Location": "North Nazimabad", "Education": "Matriculation"} //object
+        }
+        console.log(students.stdName);
+        console.log(students.stdAge);
+        console.log("Marks are " + students.stdMarks)
+        console.log("Eligiblity is " + students.eligible)
+        console.log(students.stdHobbies[3])
+        console.log(students.stdDesc.Location)
+
+    </script>
+</body>
+</html>

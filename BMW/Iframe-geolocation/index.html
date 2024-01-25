@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <iframe id="map" 
+    src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <p id="latitude"></p>
+        <p id="longitude"></p>
+
+    <button onclick="getLocation()">Allow Location</button>
+
+    <script>
+
+        function getLocation() {
+            // checking browser support
+            if (navigator.geolocation) {
+                
+                // call method to get location of user
+                navigator.geolocation.getCurrentPosition(showPosition); 
+            } else {
+                console.log("Your Browser not supported geolocation");
+            }
+        }
+
+        function showPosition(pos){
+            console.log(pos)
+            console.log(pos.coords.latitude)
+            var lat = pos.coords.latitude;
+            var long = pos.coords.longitude;
+            document.getElementById("latitude").innerText = "Your Latitude is: " +lat;
+            document.getElementById("longitude").innerText ="Your longitude is: "+ long;
+
+            //update link of iframe with newLink
+            var newLink =  `https://www.google.com/maps?q=${lat},${long}&output=embed`;
+
+            var map = document.getElementById("map").src = newLink;       
+
+            console.log(lat,long)
+        }
+
+    </script>   
+</body>
+
+
+</html>

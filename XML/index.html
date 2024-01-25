@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+
+<body>
+    <h1>Intro To Json</h1>
+
+    <script>
+
+        let cricketer = {
+            "name": "Babar Azam",
+            "age": "31",
+            "team": "Pakistan"
+        }
+
+        document.write(cricketer.name);
+        console.log(typeof(cricketer))
+
+        // MEthod Stringify
+
+        let abc = JSON.stringify(cricketer);
+        console.log(typeof(abc));
+
+        localStorage.setItem("cricketer", abc);
+
+
+        // MEthod parse
+
+        let xyz = JSON.parse(localStorage.getItem("cricketer"))
+
+        document.write(xyz.team);
+
+        console.log(typeof(xyz));
+
+
+
+    </script>
+
+</body>
+
+</html>

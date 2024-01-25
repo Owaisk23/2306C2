@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Navbar start -->
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Faqs</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Samsung</a></li>
+                      <li><a class="dropdown-item" href="#">Motorola</a></li>
+                      <li><a class="dropdown-item" href="#">Realme</a></li>
+                      <li><a class="dropdown-item" href="#">Oppo</a></li>
+                      <li><a class="dropdown-item" href="#">Techno</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Iphone</a></li>
+                      
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar end -->
+
+    <!-- Crosel Start -->
+    <!-- <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/headphone.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/airpod.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/laptop.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/airpod.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> -->
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/airpod.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/laptop.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/headphone.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+
+
+
+    <!-- Crosel End -->
+
+    <!-- Form Start -->
+    <form action="#" class="form-validate" novalidate>
+        <div class="container">
+            <div class="container-fluid bg-light text-center p-5">
+                <h1>Form Validation</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mt-5">
+                    <input type="text" placeholder="Enter First Name" class="form-control" required>
+                    <div class="invalid-feedback">
+                        Please Enter your first name
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5">
+                    <input type="text" placeholder="Enter Last Name" class="form-control" required>
+                    <div class="invalid-feedback">
+                        Please Enter your Last name
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <input type="email" placeholder="Enter your Email" class="form-control" required>
+                    <div class="invalid-feedback">
+                        Please Enter your Email
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <select class="form-control" required>
+                        <option value="">Select your city</option>
+                        <option value="Khi">Khi</option>
+                        <option value="Lhr">Lhr</option>
+                        <option value="Isb">Isb</option>
+                        <option value="Swat">Swat</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select your city
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <input type="password" placeholder="Enter your Password" class="form-control" required>
+                    <div class="invalid-feedback">
+                        Please Enter your Password
+                    </div>
+                </div>
+                <div class="col-md-12 d-grid mt-4">
+                    <button class="btn btn-warning" onclick="checkValidate()">Submit</button>
+                </div>
+            </div>
+
+            <!-- Cards Start -->
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/rolex.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Rolex Watch</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iusto libero minima neque quos sit voluptatibus. Dolores dicta qui sequi.</p>
+                          <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Addias</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iusto libero minima neque quos sit voluptatibus. Dolores dicta qui sequi.</p>
+                          <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                        <img src="./images/addidas.jpg" class="card-img-bottom" alt="...">
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/laptop.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Hp Laptop</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iusto libero minima neque quos sit voluptatibus. Dolores dicta qui sequi.</p>
+                          <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <!-- Cards End -->
+        </div>
+
+
+    </form>
+
+    <!-- Accordian Start -->
+    <div class="container mt-4">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                 CPISM
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  DISM
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  ADSE
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  HDSE
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>backgroud-color: black;</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- Accordian End -->
+
+<!-- Form End -->
+
+
+<!-- Footer Start -->
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-white mt-4">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Pakistan, Karachi, Aptech</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              aptech@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 92 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 92 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">2306C2 Batch</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+<!-- Footer End -->
+    <script>
+        const forms = document.querySelectorAll('.form-validate')
+
+        // Loop over them and prevent submission
+        function checkValidate() {
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

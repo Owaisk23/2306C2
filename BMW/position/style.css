@@ -1,0 +1,10 @@
+.box{
+    width: 150px;
+    height: 100px;
+    background-color: bisque;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    /* left: 50px;
+    top: 100px; */
+}
