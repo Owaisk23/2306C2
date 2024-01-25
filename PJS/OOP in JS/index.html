@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>OOP in Javascript</h1>
+    <!-- There are four pillars -->
+    <!-- 1. encapsulation -->
+    <!-- 2. abstraction -->
+    <!-- 3. inheritance -->
+    <!-- 4. polymorphism -->
+    <script>
+        // var car = {
+        //     name : "Carolla",
+        //     brand: "Toyota",
+        //     price: 45213789
+        // }
+
+        // console.log(car.name);
+        // Inheritance
+
+
+        // CLASS
+        // parent
+        class Vehicle {
+            constructor(name, brand, price, year, engine) {
+                this.name = name;
+                this.brand = brand;
+                this.price = price;
+                this.year = year;
+                this.engine = engine;
+            }
+
+
+            start() {
+                console.log(`${this.brand} ${this.name}  make model year is ${this.year} has a price of ${this.price} and engine capacity of ${this.engine}`);
+            }
+        }
+
+        // OBJECTS
+        let Mehran = new Vehicle("Mehran", "Suzuki", 500000, "2018", "800cc");
+        let Honda = new Vehicle("Civic", "Honda", 550000, "2023", "1800cc");
+        let Carolla = new Vehicle("Yaris", "Toyota", 4500000, "2022", "1500cc");
+        let Landcruiser = new Vehicle("Landcruiser", "Toyota", 14500000, "2008", "4500cc");
+        let KIA = new Vehicle("Sportage", "KIA", 24500000, "2022", "2000cc");
+        
+        // Landcruiser.start();
+        // Carolla.start();
+        // Honda.start();
+        // KIA.start();
+        // Mehran.start();
+
+        class MotorBikes extends Vehicle{
+            constructor(name, brand, price, year, engine, seatingCapacity, fuelTank){
+            super(name, brand, price, year, engine),
+            this.seatingCapacity = seatingCapacity;
+            this.fuelTank = fuelTank;
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
