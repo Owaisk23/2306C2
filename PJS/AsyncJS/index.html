@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to Asynchronous Javascript </h1>
+    <button id="btn">STOP</button>
+    <script>
+        // Example 1 of setTimeout
+        // setTimeout(function(){
+        //     console.log("Hello after 5 sec")
+        // }, 5000);
+        // console.log("a")
+        // console.log("b")
+        // console.log("c")
+        // console.log("d")
+        // setTimeout(function(){
+        //     console.log("Hello after 3 sec")
+        // }, 3000);
+        // console.log("e")
+        // console.log("f")
+        // console.log("g")
+        // console.log("h")
+
+        // Example 2
+        // const sayME = function(){
+        //     console.log("Owais Ahmed Khan")
+        // }
+
+        // setTimeout(sayME, 5000);
+
+        // Example 3
+
+        const changeText = function(){
+            document.querySelector('h1').innerHTML = "Change text by Asyc Mehtod"
+        }
+
+        let timeout = setTimeout(changeText, 3000)
+        // clearTimeout(timeout);
+        document.querySelector('#btn').addEventListener('click', function(){
+            clearTimeout(timeout);
+            console.log("Stopped!!")
+        })
+
+    </script>
+</body>
+</html>
