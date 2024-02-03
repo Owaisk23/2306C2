@@ -34,16 +34,37 @@
 
         // Example 3
 
-        const changeText = function(){
-            document.querySelector('h1').innerHTML = "Change text by Asyc Mehtod"
+        // const changeText = function(){
+        //     document.querySelector('h1').innerHTML = "Change text by Asyc Mehtod"
+        // }
+
+        // let timeout = setTimeout(changeText, 3000)
+        // // clearTimeout(timeout);
+        // document.querySelector('#btn').addEventListener('click', function(){
+        //     clearTimeout(timeout);
+        //     console.log("Stopped!!")
+        // })
+
+        // Example 1 setInterval
+        // const sayME = function(){
+        //     console.log("Owais Ahmed Khan")
+        // }
+
+        // const sayMeFunc = setInterval(sayME, 2000);
+        // clearInterval(sayMeFunc)
+
+        // Example 2 
+        // const sayHello = function(){
+        //     console.log("Hello" , Date.now())
+        // }
+
+        // const sayMeFunc = setInterval(sayHello, 2000);
+        // Example 3 
+        const sayHello = function(str){
+            console.log(str, Date.now())
         }
 
-        let timeout = setTimeout(changeText, 3000)
-        // clearTimeout(timeout);
-        document.querySelector('#btn').addEventListener('click', function(){
-            clearTimeout(timeout);
-            console.log("Stopped!!")
-        })
+        const sayMeFunc = setInterval(sayHello, 2000, "Ammad");
 
     </script>
 </body>
