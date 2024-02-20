@@ -14,12 +14,11 @@ create table students(
     stdAge int
 );
 
-create table teachers(
-	stdId INT,
-    stdName varchar(25),
-    stdAge int
-);
+INSERT INTO students(stdId, stdName, stdAge) 
+VALUES (2, "Maria", 22);
 
+
+SELECT stdId, stdName, stdAge FROM students;
 
 
 
