@@ -22,11 +22,18 @@ SELECT stdId, stdName, stdAge FROM students;
 
 
 
+INSERT INTO STUDENTS VALUES (3, "Basim", 22);
 
 
+Select * from STUDENTS;
 
-
-
-
+INSERT INTO STUDENTS 
+VALUES (4, "Ali", 25),
+		(5, "Hassan", 23),
+        (6, "Ayesha", 22),
+        (7, "Luqman", 24),
+        (8, "Ayan", 20),
+        (9, "Faizan", 20),
+        (10, "Hanzala", 23);
 
 
