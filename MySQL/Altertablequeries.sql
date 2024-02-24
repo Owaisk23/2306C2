@@ -58,3 +58,65 @@ VALUES (2, "Basim", "Ali", 76.13, "2017-07-12"),
         
 INSERT INTO employee(emp_id, emp_fname, emp_lname)
 values (8, "Faizan", "Ali");
+
+select * from employee
+where emp_id = 3;
+
+select * from employee
+where emp_hourlypay = 65.53;
+
+select * from employee
+where emp_hiredate >= "2019-11-22";
+
+select * from employee
+where emp_hiredate <= "2019-11-22";
+
+select * from employee
+where emp_hourlypay > 70;
+
+select * from employee
+where emp_fname = "Syed";
+
+select * from employee
+where emp_lname = "Ali";
+
+select * from employee
+where emp_hourlypay IS NULL;
+
+select * from employee
+where emp_hourlypay IS NOT NULL;
+
+select * from employee
+where emp_hiredate IS NOT NULL;
+
+select * from employee
+where emp_hiredate IS NULL;
+
+select * from employee
+where emp_id = 8;
+-- update
+
+update employee
+SET emp_hourlypay = 42.45,
+emp_hiredate = "2022-06-21"
+where emp_id = 8;
+
+select * from employee;
+
+DELETE FROM employee
+where emp_id = 8;
+
+
+set autocommit = off;
+
+DELETE FROM employee
+where emp_id = 6;
+
+commit;
+
+rollback;
+
+update employee
+set emp_hourlypay = 10.23;
+
+select emp_fname, emp_hourlypay from employee;
