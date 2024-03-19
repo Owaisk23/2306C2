@@ -42,18 +42,152 @@
 
     // Datatypes in PHP
     // Number
-    $num1 = 45; //int
-    $num2 = 32.5; //float
-    $num3 = 1.76534783228472312; //double
+    // $num1 = 45; //int
+    // $num2 = 32.5; //float
+    // $num3 = 1.76534783228472312; //double
 
     // string
 
-    $str1 = "Php class in 2306C2 batch"; //string
+    // $str1 = "Php class in 2306C2 batch"; //string
 
-    // boolean
+    // boolean: true ya false
 
-    $userResponse = true;
-    $isValid = false;
+    // $userResponse = true;
+    // $isValid = false;
+
+
+    // echo "Welcome to 2nd class!";
+
+    // ARRAYS
+    // $students = array("Yayha", "Wajeeha", "Affan", "Ayesha", "Rubab");
+    //                 //  0         1          2             
+    // echo $students[1];
+
+    // functions
+    // declaration
+    // function add(){
+    //     echo 23 + 77;
+    // }
+
+    // // calling func
+    // add();
+
+    // functions with parameters
+    // function add($a=34, $b=55){
+    //     echo "Sum Result is: ".$a + $b;
+    // }
+
+    // // calling
+    // add();
+
+    // // function with return type and arguments
+    // function add($a=0, $b=0){
+    //     return "Addition result is: ".$a + $b."<br>";
+    // }
+
+    // // calling func with arguments
+    // $c = add(45, 66);
+
+    // echo $c;
+    // // function with return type and arguments
+    // function sub($a=0, $b=0){
+    //     return "Subtraction result is: ".$a - $b;
+    // }
+
+    // // calling func with arguments
+    // $d = sub(45, 66);
+
+    // echo $d;
+
+    // Conditional Statements
+
+    // $age = 17;
+    
+    // if($age > 18){
+    //     echo "You can vote";
+    // }else{
+    //     echo "You can't vote"; 
+    // }
+
+    // if($age > 18){
+    //     echo "You can drive";
+    // }elseif ($age == 18){
+    //     echo '<script>alert("You can drive but get your license first!")</script>';
+    // }else{
+    //     echo "You can't drive"; 
+    // }
+
+    // switch case
+
+    // switch(key) {
+    //     case x:
+    //       // code block
+    //       break;
+    //     case y:
+    //       // code block
+    //       break;
+    //     default:
+    //       // code block
+    //   }
+
+    $day = "Monday";
+    
+    switch($day) {
+        case "Monday":
+            echo "weekday";
+            break;
+        case "Tuesday":
+            echo "weekday";
+            break;
+        case "Wednesday":
+            echo "weekday";
+            break;
+        case "Thursday":
+            echo "weekday";
+            break;
+        case "Friday":
+            echo "weekday";
+            break;
+        case "Saturday":
+            echo "weekend";
+            break;
+        case "Sunday":
+            echo "weekend";
+            break;
+
+        default:
+            echo "Spelling check kro yar!";
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ?>
