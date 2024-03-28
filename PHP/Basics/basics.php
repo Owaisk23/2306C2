@@ -60,8 +60,8 @@
 
     // ARRAYS
     // $students = array("Yayha", "Wajeeha", "Affan", "Ayesha", "Rubab");
-    //                 //  0         1          2             
-    // echo $students[1];
+    // //                 //  0         1          2             
+    // echo $students[2];
 
     // functions
     // declaration
@@ -130,34 +130,34 @@
     //       // code block
     //   }
 
-    $day = "Monday";
+    // $day = "Monday";
     
-    switch($day) {
-        case "Monday":
-            echo "weekday";
-            break;
-        case "Tuesday":
-            echo "weekday";
-            break;
-        case "Wednesday":
-            echo "weekday";
-            break;
-        case "Thursday":
-            echo "weekday";
-            break;
-        case "Friday":
-            echo "weekday";
-            break;
-        case "Saturday":
-            echo "weekend";
-            break;
-        case "Sunday":
-            echo "weekend";
-            break;
+    // switch($day) {
+    //     case "Monday":
+    //         echo "weekday";
+    //         break;
+    //     case "Tuesday":
+    //         echo "weekday";
+    //         break;
+    //     case "Wednesday":
+    //         echo "weekday";
+    //         break;
+    //     case "Thursday":
+    //         echo "weekday";
+    //         break;
+    //     case "Friday":
+    //         echo "weekday";
+    //         break;
+    //     case "Saturday":
+    //         echo "weekend";
+    //         break;
+    //     case "Sunday":
+    //         echo "weekend";
+    //         break;
 
-        default:
-            echo "Spelling check kro yar!";
-    }
+    //     default:
+    //         echo "Spelling check kro yar!";
+    // }
 
     
 
