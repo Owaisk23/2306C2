@@ -18,26 +18,47 @@
             "team": "Pakistan"
         }
 
-        document.write(cricketer.name);
-        console.log(typeof(cricketer))
+        // document.write(cricketer.name);
+        // console.log(typeof(cricketer))
+       
+        
+       
+        // Stirgify Method
+        
+        let cric = JSON.stringify(cricketer);
 
-        // MEthod Stringify
+        // console.log(typeof(cric))
 
-        let abc = JSON.stringify(cricketer);
-        console.log(typeof(abc));
-
-        localStorage.setItem("cricketer", abc);
-
-
-        // MEthod parse
-
-        let xyz = JSON.parse(localStorage.getItem("cricketer"))
-
-        document.write(xyz.team);
-
-        console.log(typeof(xyz));
+        localStorage.setItem("cricketer", cric);
 
 
+
+        // Parse Method 
+
+        let getItem = JSON.parse(localStorage.getItem("cricketer"));
+
+        console.log(typeof(getItem));
+
+        console.log(getItem.name);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // localStorage.setItem("cricketer", abc);
+
+
+  
 
     </script>
 
