@@ -41,9 +41,9 @@ while($row=mysqli_fetch_assoc($result)){
     echo "<td>".$row['contact']."</td>"; //contact
     echo "<td>".$row['city']."</td>"; //city
     echo '<td>
-    <a href="#'.$row["stdid"].'" class="btn btn-success px-2 mx-2">Edit</a>
-    <a href="#'.$row["stdid"].'" class="btn btn-danger">Delete</a>
-    </td>';
+    <a href="update.php?id='.$row["stdid"].'" class="btn btn-success px-2 mx-2">Edit</a>
+    <a href="delete.php?id='.$row["stdid"].'" class="btn btn-danger">Delete</a></td>';
+    // delete.php?id=2
     echo "</tr>";
     
 }
