@@ -28,6 +28,8 @@
             "experience" => "3 years"
         ];
 
+        // echo $employee["jobTitle"];
+
         // echo "<pre>";
         // print_r($employee);
         // echo "</pre>";
@@ -37,16 +39,16 @@
         // }
     
         // Multidimensional Arrays
-        // $result = [
-        //     ["Owais" ,78 ],
-        //     // 00      01
-        //     ["Haris" ,88],
-        //     // 10     11
-        //     ["Ebad" ,98],
-        //     // 20    21
-        //     ["Afzal" ,68]
-        //     // 30     31
-        // ];
+        $result = [
+            ["Owais" ,78 ],
+            // 00      01
+            ["Haris" ,88],
+            // 10     11
+            ["Ebad" ,98],
+            // 20    21
+            ["Afzal" ,68]
+            // 30     31
+        ];
 
         // echo "<pre>";
         // print_r($result);
@@ -56,10 +58,10 @@
 
         // echo "<table border=2 cellspacing=3px>
         // <h1>Students Data Result</h1>   
-        // <tr>
+        // <tr bgcolor='cyan'>
         //     <th>Name</th>
         //     <th>Percentage</th>
-        //     <th>Percentage</th>
+            
         // </tr>";
 
         // foreach($result as $key1 => $value1){
@@ -83,12 +85,12 @@
             "Hassan" => ["HTML" => 87, "CSS" => 94, "JS" => 81]
         ];
 
-        // echo $marks["Ammad"]["JS"];
+        echo $marks["Hassan"]["HTML"];
 
 
-        echo "<pre>";
-        print_r($marks);
-        echo "</pre>";
+        // echo "<pre>";
+        // print_r($marks);
+        // echo "</pre>";
 
     // StdName | HTML | CSS | JS
     // Abdullah  88      78   100
