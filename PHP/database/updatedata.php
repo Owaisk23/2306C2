@@ -12,7 +12,7 @@ $update="UPDATE `student` set `name`='$name',`contact`='$contact',`city`='$city'
 
 
 
-$result=mysqli_query($connection , $update) or die("failed to insert query.");
+$result=mysqli_query($connection , $update) or die("failed to update query.");
 if($result){
    echo "<script>alert('Student`s Details Updated.')</script>;";
    header("location: index.php");
