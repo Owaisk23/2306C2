@@ -1,7 +1,4 @@
-<?php 
 
-
-?>
 
 <form action="start.php" method="post">
 
