@@ -1,0 +1,1 @@
+<h1>Hello from about page in Laravel</h1>
