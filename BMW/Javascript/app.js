@@ -406,9 +406,9 @@
 
 // getInput();
 
-function greet(){
-    alert('hello, good evening!')
-}
+// function greet(){
+//     alert('hello, good evening!')
+// }
 
 // BIRTH CALCULATOR
 
