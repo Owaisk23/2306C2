@@ -12,7 +12,7 @@ class MyController extends Controller
         $name = "Ammad";
         $designations = "MERN Stack Developer";
         // Using Compact method
-        // return view("welcome", compact("name", "designation"));
+        return view("welcome", compact("name", "designations"));
 
 
 
