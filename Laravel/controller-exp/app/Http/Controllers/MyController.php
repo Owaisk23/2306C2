@@ -10,9 +10,9 @@ class MyController extends Controller
         // return "Hello from myController";
         
         $name = "Ammad";
-        $designations = "MERN Stack Developer";
+        // $designations = "MERN Stack Developer";
         // Using Compact method
-        return view("welcome", compact("name", "designations"));
+        // return view("welcome", compact("name", "designations"));
 
 
 
@@ -24,7 +24,7 @@ class MyController extends Controller
         // ));
 
         // Using with method
-        // return view("welcome")->with('name')->with('year')->with('color');
+        return view("welcome")->with('name');
 
     }
 

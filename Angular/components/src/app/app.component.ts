@@ -10,5 +10,13 @@ import { UserProfileComponent } from './user-profile/user-profile.component'
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'components';
-}
+  users = [
+    {name:"Owais", isSingle:true, salary:1000},
+    {name:"Abdullah", isSingle:false, salary:123000},
+    {name:"Taha", isSingle:true, salary:3000},
+    {name:"Bilal", isSingle:false, salary:15000},
+  ]
+
+  recevedData(data: string){
+    console.log(data)
+  }}
