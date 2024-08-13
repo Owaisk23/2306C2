@@ -20,11 +20,11 @@ export class UserProfileComponent {
     this.myEvent.emit({name:this.name, newSalary: 25000})
   }
 
-  // name = "Owais Ahmed Khan";
-  // salary = 56000;
-  // designation = "Software Developer";
-  // isDisabled= true;
-  // inputVal = "test";
+  userName = "Owais Ahmed Khan";
+  newSalary = 56000;
+  designation = "Software Developer";
+  isDisabled= true;
+  inputVal = "test";
   
 
   // onChange(){
@@ -36,9 +36,9 @@ export class UserProfileComponent {
   //   console.log(value);
   // }
 
-  // onChange(e:Event){
-  //   const value = (e.target as HTMLInputElement).value;
-  //   this.inputVal = value;
-  // }
+  onChange(e:Event){
+    const value = (e.target as HTMLInputElement).value;
+    this.inputVal = value;
+  }
 
 }
