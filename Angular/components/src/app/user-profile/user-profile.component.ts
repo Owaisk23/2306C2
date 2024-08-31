@@ -27,18 +27,18 @@ export class UserProfileComponent {
   inputVal = "test";
   
 
-  // onChange(){
-  //   console.log("Called Function");
-  // }
+  onChange(){
+    console.log("Called Function");
+  }
 
   // onChange(e:Event){
   //   const value = (e.target as HTMLInputElement).value;
   //   console.log(value);
   // }
 
-  onChange(e:Event){
-    const value = (e.target as HTMLInputElement).value;
-    this.inputVal = value;
-  }
+  // onChange(e:Event){
+  //   const value = (e.target as HTMLInputElement).value;
+  //   this.inputVal = value;
+  // }
 
 }
