@@ -57,3 +57,44 @@ where not designation='React developer' or salary<150000;
 --Between
 SELECT * FROM Employee where id between 3 AND 5;
 
+--Like 
+
+SELECT * FROM Employee where designation like '%n%';
+
+SELECT * FROM Employee where city like '%h%' and designation like '%n%';
+
+--IN
+SELECT * FROM Employee where city IN ('Khi')
+ 
+--ORDER BY
+SELECT * FROM Employee Order By empName asc;
+
+SELECT * FROM Employee Order By id desc;
+
+-- Top
+
+SELECT TOP 3 * From Employee;
+
+SELECT TOP 50 percent * From Employee Order By Id asc;
+
+-- aggregate functions
+
+SELECT * FROM Employee;
+
+SELECT COUNT(city) as total_cities From Employee;
+ 
+SELECT MIN(salary) as Minium_Salary From Employee;
+
+SELECT MAX(salary) as Max_Salary From Employee;
+
+SELECT SUM(salary) as Total_Salary From Employee;
+
+SELECT SUM(id) as Sum_Ids From Employee;
+
+SELECT AVG(salary) as Average_Salary From Employee;
+
+SELECT CONCAT(empName, ' has a designation of ', designation, ' has a salary of ', salary)
+as emp_details FROM Employee;
+
+SELECT empName, salary from Employee where salary < (SELECT AVG(salary) as
+Average_Salary From Employee);
