@@ -98,3 +98,62 @@ as emp_details FROM Employee;
 
 SELECT empName, salary from Employee where salary < (SELECT AVG(salary) as
 Average_Salary From Employee);
+
+
+-- Group By Clause
+SELECT city, COUNT(id) workers from Employee Group By city;
+
+SELECT city, MAX(salary) max_salary_paid from Employee Group By city;
+
+SELECT city, SUM(salary) total_salary_paid from Employee Group By city;
+
+
+
+INSERT INTO Employee(empName, designation, salary, city, deptId) VALUES
+('Ali Asr', 'MANAGER', 420000, 'KHI', null),
+('Ebad', 'MANAGER', 670000, 'ISB', null),
+('Bilal', 'MANAGER', 220000, 'LHR', null);
+
+Select * FROM Employee;
+
+SELECT designation, COUNT(id) from Employee Group By
+designation having designation = 'MANAGER';
+
+-- Department Table
+
+CREATE table Departments (
+deptId int PRIMARY KEY IDENTITY(1,1),
+DName nvarchar(40) not null
+);
+
+insert into Departments values ('HR'), ('Academics'), ('Accounts'), ('SRO');
+
+SELECT * FROM Departments;
+
+SELECT * FROM Employee;
+
+TRUNCATE TABLE Employee;
+
+DROP TABLE Employee;
+
+CREATE TABLE Employee(
+	id INT PRIMARY KEY IDENTITY(1,1),
+	empName VARCHAR(255) NOT NULL,
+	designation VARCHAR(255) NOT NULL,
+	salary INT NOT NULL,
+	city VARCHAR(255) NOT NULL,
+	deptId INT,
+	FOREIGN KEY (deptId) References Departments(deptId)
+);
+
+
+INSERT INTO Employee(empName, designation, salary, city, deptId) VALUES
+('Ali Asr', 'CAH', 420000, 'KHI', 2),
+('Ebad', 'Placement Officer', 670000, 'ISB', 1),
+('Bilal', 'Fee Collector', 220000, 'LHR', 4),
+('Haseeb', 'Coordinator', 670000, 'KHI', 2),
+('Taha', 'Admin Accountant', 220000, 'LHR', 3),
+('Abdullah', 'Manager', 670000, 'KHI', 2),
+('Azhar', 'Faculty', 220000, 'ISB', 2);
+
+SELECT * FROM Employees;
