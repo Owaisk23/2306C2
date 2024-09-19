@@ -127,7 +127,7 @@ DName nvarchar(40) not null
 );
 
 insert into Departments values ('HR'), ('Academics'), ('Accounts'), ('SRO');
-
+insert into Departments values ('Canteen'), ('TechRoom'), ('Coordinators');
 SELECT * FROM Departments;
 
 SELECT * FROM Employee;
@@ -156,4 +156,25 @@ INSERT INTO Employee(empName, designation, salary, city, deptId) VALUES
 ('Abdullah', 'Manager', 670000, 'KHI', 2),
 ('Azhar', 'Faculty', 220000, 'ISB', 2);
 
-SELECT * FROM Employees;
+
+INSERT INTO Employee(empName, designation, salary, city ) VALUES
+('Wamiq', 'AH', 420000, 'KHI'),
+('Osama', 'Staff Officer', 670000, 'ISB'),
+('Affan', 'Form Collector', 220000, 'LHR');
+
+SELECT * FROM Employee;
+
+-- JOINS
+--INNER JOIN 
+SELECT * FROM Employee as emp INNER JOIN Departments as d on emp.deptId=d.deptId;
+
+--LEFT JOIN 
+SELECT * FROM Employee as emp LEFT JOIN Departments as d on emp.deptId=d.deptId;
+
+SELECT * FROM Departments as d LEFT JOIN Employee as emp on d.deptId=emp.deptId;
+
+--RIGHT JOIN 
+SELECT * FROM Employee as emp RIGHT JOIN Departments as d on emp.deptId=d.deptId;
+
+--FULL OUTER JOIN
+SELECT emp.*, d.DName FROM Employee as emp FULL OUTER JOIN Departments as d on emp.deptId=d.deptId;
