@@ -204,6 +204,21 @@ SELECT emp.*, d.DName from Employee as emp INNER JOIN Departments as d ON emp.de
 
 SELECT * from [empDetailwithDept];
 
-UPDATE Employee SET empName = 'Owais Ahmed' where id = 1;
+UPDATE Employee SET empName = 'Ammad' where id = 1;
 
 delete from Employee where id = 7;
+
+-- DCL DATA CONTROL LANGUAGE
+
+CREATE LOGIN FACULTY_EMP  WITH Password='123';
+CREATE USER FACULTY_EMP FROM LOGIN FACULTY_EMP;
+
+select * from sys.sql_logins;
+
+GRANT SELECT on dbo.Employee TO FACULTY_EMP;
+
+GRANT INSERT, DELETE on dbo.Employee TO FACULTY_EMP;
+
+REVOKE DELETE on dbo.Employee TO FACULTY_EMP;
+
+
