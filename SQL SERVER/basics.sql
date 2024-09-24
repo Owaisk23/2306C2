@@ -178,3 +178,32 @@ SELECT * FROM Employee as emp RIGHT JOIN Departments as d on emp.deptId=d.deptId
 
 --FULL OUTER JOIN
 SELECT emp.*, d.DName FROM Employee as emp FULL OUTER JOIN Departments as d on emp.deptId=d.deptId;
+
+--Views
+
+-- VIEWS 
+SELECT * FROM Employee;
+
+CREATE View [empDetails]
+AS
+SELECT id, empName, designation from Employee;
+
+SELECT * FROM empDetails;
+SELECT * FROM Departments;
+
+CREATE View [empDeptName]
+AS
+SELECT DName FROM Departments;
+
+select * from empDeptName;
+
+
+Create VIEW [empDetailwithDept]
+AS
+SELECT emp.*, d.DName from Employee as emp INNER JOIN Departments as d ON emp.deptId = d.deptId;
+
+SELECT * from [empDetailwithDept];
+
+UPDATE Employee SET empName = 'Owais Ahmed' where id = 1;
+
+delete from Employee where id = 7;
