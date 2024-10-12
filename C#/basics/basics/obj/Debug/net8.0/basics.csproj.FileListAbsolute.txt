@@ -1,0 +1,15 @@
+Z:\Desktop\2306C2\C#\basics\basics\bin\Debug\net8.0\basics.exe
+Z:\Desktop\2306C2\C#\basics\basics\bin\Debug\net8.0\basics.deps.json
+Z:\Desktop\2306C2\C#\basics\basics\bin\Debug\net8.0\basics.runtimeconfig.json
+Z:\Desktop\2306C2\C#\basics\basics\bin\Debug\net8.0\basics.dll
+Z:\Desktop\2306C2\C#\basics\basics\bin\Debug\net8.0\basics.pdb
+Z:\Desktop\2306C2\C#\basics\basics\obj\Debug\net8.0\basics.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Desktop\2306C2\C#\basics\basics\obj\Debug\net8.0\basics.AssemblyInfoInputs.cache
+Z:\Desktop\2306C2\C#\basics\basics\obj\Debug\net8.0\basics.AssemblyInfo.cs
+Z:\Desktop\2306C2\C#\basics\basics\obj\Debug\net8.0\basics.csproj.CoreCompileInputs.cache
+Z:\Desktop\2306C2\C#\basics\basics\obj\Debug\net8.0\basics.sourcelink.json
+Z:\Desktop\2306C2\C#\basics\basics\obj\Debug\net8.0\basics.dll
+Z:\Desktop\2306C2\C#\basics\basics\obj\Debug\net8.0\refint\basics.dll
+Z:\Desktop\2306C2\C#\basics\basics\obj\Debug\net8.0\basics.pdb
+Z:\Desktop\2306C2\C#\basics\basics\obj\Debug\net8.0\basics.genruntimeconfig.cache
+Z:\Desktop\2306C2\C#\basics\basics\obj\Debug\net8.0\ref\basics.dll
