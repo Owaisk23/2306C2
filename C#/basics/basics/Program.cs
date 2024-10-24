@@ -81,8 +81,8 @@
 
 // Conditional Statements
 
-using System;
-using System.Runtime.InteropServices.Marshalling;
+//using System;
+//using System.Runtime.InteropServices.Marshalling;
 //Console.WriteLine("Enter Salary...");
 
 //int salary = Int32.Parse(Console.ReadLine());
@@ -306,6 +306,150 @@ using System.Runtime.InteropServices.Marshalling;
 //JAGGED ARRAY in C# 
 //size of sub-array is not fixed.
 
+//string[][] skillSet =
+//{
+//    new string[6] {"Html",  "CSS", "JS", "Bootstrap", "UIUX", "SEO"},
+//    new string[3] {"SQL SERVER", "C#", "Typescript"},
+//    new string[2] {"PHP", "LARAVEL"},
+//    new string[4] {"Dart", "Flutter", "Agile", "Azure"}
+//};
+
+////Console.WriteLine(skillSet[1][2]); //C#
+
+//// var decides datatype on runtime
+
+//for (int i = 0; i < skillSet.Length; i++) // Loop through the outer array
+//{
+//    for (int j = 0; j < skillSet[i].Length; j++) // Loop through each inner array
+//    {
+//        Console.WriteLine($"Element at jaggedArray[{i}][{j}] = {skillSet[i][j]}");
+//    }
+//}
+
+//foreach (var skilss in skillSet)
+//{
+//    foreach(var skill in skilss)
+//    {
+//        Console.WriteLine(skill);
+//    }
+//}
+
+
+// Functions
+
+// return type funcName() { body }
+
+
+// No Return No Parameter
+//Create Function
+//void Greet()
+//{
+//    Console.WriteLine("Hey! Welcome to our company..");
+//}
+
+////Calling Function
+
+//Greet();
+
+//No Return with Parameter
+//Create Function
+//void Greet(string name)
+//{
+//    Console.WriteLine($"Hi {name}!! Welcome to our company.");
+//}
+
+//////Calling Function
+//Greet("Abdullah");
+//Greet("Zainab");
+//Greet("Basim");
+//Greet("Ammad");
+//Greet("Hassan");
+
+//Return with No Paramter
+
+//string Greet()
+//{
+//    return "Hey! Welcome to our company..";
+//}
+
+////Greet();
+
+////Console.WriteLine(Greet());
+
+//string messg = Greet();
+
+//Console.WriteLine(messg.ToUpper());
+
+//float stdWeight()
+//{
+//    return 32.456f;
+//}
+
+//float fNum = stdWeight();
+
+//Console.WriteLine(fNum);
+
+//Return with Parameter
+// \n to break line
+//string empDetails(string empName, byte age)
+//{
+//    return ($"Employee Name is {empName}. \n Employee Age is {age}");
+//}
+
+//string messg = empDetails("Jeetha Laal", 34);
+
+//Console.WriteLine(messg);
+
+//Collections
+
+//Generic Collection
+//LIST, STACK, QUEUE, DICTIONARY
+
+using System.Collections;
+using System.Linq;
+
+////LIST
+//List<string> SuperCars = new List<string>();
+//SuperCars.Add("Ferrari");
+//SuperCars.Add("Supra");
+//SuperCars.Add("Lamborghini");
+//SuperCars.Add("Lemo");
+//SuperCars.Add("Bughati");
+
+
+
+//List<string> Cars = new List<string>();
+//Cars.Add("Haval"); //0
+////REVO 1
+//Cars.Add("Civic"); //2
+
+//Cars.Add("Carolla"); //3
+//Cars.Add("BMW"); //4
+//Cars.Add("Sportage"); //5
+
+//Console.WriteLine(Cars.Contains("Revo"));
+//Cars.Insert(1, "Revo");
+
+
+//Cars.AddRange(SuperCars);
+//Cars.RemoveRange(1, 5);
+
+
+//Console.WriteLine(Cars.Contains("Revo"));
+
+//Console.WriteLine(Cars[2]);
+//Cars.Clear(); 
+
+
+//Cars.RemoveAt(3);
+
+//Cars.Remove("BMW");
+//foreach (var car in Cars)
+//{
+//    Console.WriteLine(car);
+//}
+
+//STACK LIFO(Last In First Out)
 
 
 
@@ -338,6 +482,70 @@ using System.Runtime.InteropServices.Marshalling;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Non Generic collection
 
 
 
