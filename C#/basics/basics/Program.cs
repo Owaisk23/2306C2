@@ -449,7 +449,128 @@ using System.Linq;
 //    Console.WriteLine(car);
 //}
 
+// QUEUE (First In First Out: FIFO)
+
+//Queue<string> stdNames = new Queue<string>();
+//stdNames.Enqueue("Aqsa");
+//stdNames.Enqueue("Zainab");
+//stdNames.Enqueue("Ahsan");
+//stdNames.Enqueue("Abdullah");
+//stdNames.Enqueue("Hanzala");
+//stdNames.Enqueue("Hassan");
+
+////stdNames.Dequeue(); //Aqsa
+////stdNames.Dequeue(); //Zainab
+////stdNames.Dequeue(); //Ahsan
+////stdNames.Dequeue(); //Abdullah
+
+//stdNames.Clear();
+
+//foreach (string name in stdNames)
+//{
+//    Console.WriteLine(name);
+//}
+
 //STACK LIFO(Last In First Out)
+//Stack<string> stdNames = new Stack<string>();
+//stdNames.Push("Ammad");
+//stdNames.Push("Basim");
+//stdNames.Push("Abdullah");
+//stdNames.Push("Hassan");
+//stdNames.Push("Hanzala");
+//stdNames.Push("Ahsan");
+//stdNames.Push("Aqsa");
+//stdNames.Push("Zainab");
+
+//stdNames.Pop();//Zainab
+//stdNames.Pop();//Aqsa
+//stdNames.Pop();//Ahsan
+//stdNames.Pop();//Hanzala
+
+//stdNames.Clear();
+
+//foreach(string name in stdNames)
+//{
+//    Console.WriteLine(name);
+//}
+
+//Dictionary(Generic)
+//Dictionary<string, string> employee = new Dictionary<string, string>();
+//employee.Add("empName", "Ammad Ali");
+//employee.Add("empEmail", "ammad@gmail.com");
+//employee.Add("empPass", "Pakistan555");
+//employee.Add("empRole", "Admin");
+//employee.Add("empImg", "ammadpic.jpg");
+
+////Console.WriteLine(employee["empRole"]);
+////employee.Remove("empImg");
+
+////Console.WriteLine(employee["empEmail"]);
+
+//foreach(var item in employee)
+//{
+//    string[] test = (item.ToString()).Split(',');
+//    //string key = test[0];
+//    //string value = test[1];
+//    string key = test[0].Trim('['); //[
+//    string value = test[1].Trim(']'); //]
+//    //Console.WriteLine(key);
+//    //Console.WriteLine(value);
+//    //Console.WriteLine(item);
+
+//    Console.WriteLine($"The employee has key propety:{key} and value property is:{value}");
+//    //Console.WriteLine(test[0]);
+//}
+
+//Hashtables(Non-Generic Collection && No fixed datatype)
+
+//Hashtable students = new Hashtable();
+//students.Add("stdname", "Abdullah");
+//students.Add("stdMarks", 98);
+//students.Add("stdExamStatus", true);
+//students.Add("stdImg", "abdullah.jpg");
+
+
+////Console.WriteLine(students["stdname"]);
+////students.Contains("stdMarks");
+////students.ContainsValue(98);
+
+//foreach(DictionaryEntry item in students)
+//{
+//    Console.WriteLine(item.Key + " : " + item.Value);
+//}
+
+//Console.WriteLine(students.GetHashCode());
+
+//ArrayList (None-Generic Collection & No fix datatype)
+
+ArrayList Cars = new ArrayList();
+Cars.Add("Revo");
+Cars.Add("Camery");
+Cars.Add("Civic");
+Cars.Add("Elantra");
+Cars.Add("Mehran");
+Cars.Add(24007);
+Cars.Add(.70f);
+
+//Console.WriteLine(Cars.Count);
+Console.WriteLine(Cars.Contains("Mehran"));
+//Cars.RemoveAt(3);
+//Cars.Remove("Revo");
+Cars.RemoveRange(5, 2);
+
+
+
+foreach(var car in Cars)
+{
+    Console.WriteLine(car);
+}
+
+
+
+
+
+
 
 
 
