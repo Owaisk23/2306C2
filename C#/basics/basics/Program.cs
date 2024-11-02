@@ -544,29 +544,194 @@ using System.Linq;
 
 //ArrayList (None-Generic Collection & No fix datatype)
 
-ArrayList Cars = new ArrayList();
-Cars.Add("Revo");
-Cars.Add("Camery");
-Cars.Add("Civic");
-Cars.Add("Elantra");
-Cars.Add("Mehran");
-Cars.Add(24007);
-Cars.Add(.70f);
+//ArrayList Cars = new ArrayList();
+//Cars.Add("Revo");
+//Cars.Add("Camery");
+//Cars.Add("Civic");
+//Cars.Add("Elantra");
+//Cars.Add("Mehran");
+//Cars.Add(24007);
+//Cars.Add(.70f);
 
-//Console.WriteLine(Cars.Count);
-Console.WriteLine(Cars.Contains("Mehran"));
-//Cars.RemoveAt(3);
-//Cars.Remove("Revo");
-Cars.RemoveRange(5, 2);
-
-
-
-foreach(var car in Cars)
-{
-    Console.WriteLine(car);
-}
+////Console.WriteLine(Cars.Count);
+//Console.WriteLine(Cars.Contains("Mehran"));
+////Cars.RemoveAt(3);
+////Cars.Remove("Revo");
+//Cars.RemoveRange(5, 2);
 
 
+
+//foreach(var car in Cars)
+//{
+//    Console.WriteLine(car);
+//}
+
+
+
+//String Methods
+
+//string test = """{ "name": "John Doe"}""";
+
+//using System.Collections;
+
+//string test = "we are  Learnnig \"C#\"";
+////Console.WriteLine(test);
+//Console.WriteLine(test.Replace("Learnnig", "Mastering"));
+//Console.WriteLine(test.Replace("C#", "Java"));
+
+//string email = "hdkjhdkjhkhf";
+//int age = 75;
+
+//login start
+
+//login end
+
+
+//CODING Best Practices
+// Indentation (Readable by using spaces and new lines) 
+// Comments 
+// Meaningful identifiers (variable names)
+// errors (exception handling) 
+//less repeatation
+
+//OOP
+//Objects and Classes
+
+//Aeroplane Boeing707 = new Aeroplane();//default constructor
+
+
+//Boeing707.Name = "Boeing 707";
+//Boeing707.takeOff();
+//Console.WriteLine(Boeing707.AirLine);
+
+//Aeroplane f16 = new Aeroplane("PAF");
+//f16.takeOff();
+
+//Aeroplane f17 = new Aeroplane("PAF","F-17 Thunder",2,2,"8500hp");
+//f17.takeOff();
+//f17.land();
+
+//public class Aeroplane
+//{
+//    public string? AirLine;
+//    public string? Name;
+//    public int Seats;
+//    public int Crew;
+//    public string? Power;
+
+//    //Contstructor
+//    public Aeroplane()
+//    {
+//        this.AirLine = "Not specified";
+//        this.Name = "unknown";
+//        this.Seats = 0;
+//        this.Crew = 0;
+//        this.Power = null;
+//    }
+
+//    public Aeroplane(string AirLine)
+//    {
+//        this.AirLine = AirLine;
+//        this.Name = "unknown";
+//        this.Seats = 0;
+//        this.Crew = 0;
+//        this.Power = null;
+//    }
+
+
+//    //    //Paremeterized constructor (Overloading)
+//    public Aeroplane(string ALine, string name, int seat, int crew, string pow)
+//    {
+//        this.AirLine = ALine;
+//        this.Name = name;
+//        this.Seats = seat;
+//        this.Crew = crew;
+//        this.Power = pow;
+//    }
+//    public void takeOff()
+//    {
+//        Console.WriteLine($"{this.Name} is taking off. Best Wishes..!");
+//    }
+//    public void land()
+//    {
+//        Console.WriteLine($"{this.Name} is Landing at the 4th runway..! ");
+//    }
+
+//}
+
+//OOP (OBJECT ORIENTED PROGRAMMING)
+//it is an approach to code cleaner and better.
+//readable
+//reusable
+//optimize
+//proper structure of the code is maintained.
+
+//Main Pillars of OOP
+
+//1. Interitance
+// i . Single level inheritance  Vehicle -> Car
+// ii . Multi level inheritance  Vehicle -> Car -> Ecar
+// iii. Heirarchical inheritance Vehicle ->Car , Vehicle-> Bike
+// iv. Multiple inheritance  
+// v. Hybrid inheritance    Vehicle -> CAR , Vehicle -> Car -> Ecar, Car-> Ecar
+
+//2. Polymorphism
+// Method Overloading
+// Method Overriding
+//3. Abstraction
+//4. Encapsulation
+
+//Inheritance
+//Vehicle abc = new Vehicle("AAZ-789", "Metallic grey");
+//abc.Run();
+
+//Car mercedez = new Car("TZ-8908", "Black", "Mercedez", "Benz C-Class", 20000000);
+////mercedez.Run();
+//mercedez.Run(500);
+
+////// Parent class | Base Class | Super Class
+//public class Vehicle
+//{
+//    public string regNo;
+//    public string color;
+
+//    public Vehicle(string regno, string color)
+//    {
+//        this.regNo = regno;
+//        this.color = color;
+//    }
+//    public void Run()
+//    {
+//        Console.WriteLine($"{this.regNo} vehicle started running");
+//    }
+//}
+////// Child class | Derived Class | Sub Class
+//public class Car : Vehicle
+//{
+
+//    public string brand;
+//    public string model;
+//    public int price;
+
+//    public Car(string regno, string color, string brand, string model, int price) : base(regno, color)
+//    {
+//        this.brand = brand;
+//        this.model = model;
+//        this.price = price;
+//    }
+
+//    //method overriding
+//    public void Run()
+//    {
+//        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running");
+//    }
+//    //method overloading
+//    public void Run(int speed)
+//    {
+//        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running at {speed} MPH.");
+//    }
+
+//}
 
 
 
