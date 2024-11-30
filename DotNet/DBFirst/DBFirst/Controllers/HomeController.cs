@@ -6,16 +6,28 @@ namespace DBFirst.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ProductsContext db;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ProductsContext _db)
         {
-            _logger = logger;
+            db = _db;
         }
 
         public IActionResult Index()
         {
+            return View(db.Products.ToList());
+        } 
+        public IActionResult AddProduct()
+        {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddProduct(Product product)
+        {
+            db.Products.Add(product);
+            db.SaveChanges();
+            return RedirectToAction("Index");
         }
 
         public IActionResult Privacy()
