@@ -30,6 +30,40 @@ namespace DBFirst.Controllers
             return RedirectToAction("Index");
         }
 
+
+        public IActionResult EditProduct(int id)
+        {
+            var product = db.Products.FirstOrDefault(x => x.Id == id);
+            return View(product);
+        }
+       
+        [HttpPost]
+        public IActionResult EditProduct(Product product)
+        {
+            db.Products.Update(product);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult DeleteProduct(int id)
+        {
+            var product = db.Products.FirstOrDefault(x => x.Id == id);
+            return View(product);
+        }
+        [HttpPost]
+        public IActionResult DeleteProduct(Product product)
+        {
+            db.Products.Remove(product);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult DetailProduct(int id)
+        {
+            var product = db.Products.FirstOrDefault(x => x.Id == id);
+            return View(product);
+        }
+
         public IActionResult Privacy()
         {
             return View();
