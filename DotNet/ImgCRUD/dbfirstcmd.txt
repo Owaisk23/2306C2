@@ -1,0 +1,1 @@
+Scaffold-DbContext "data source=.;initial catalog=products;user id=sa;password=aptech; TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force
