@@ -1,21 +1,23 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace SessionAuthentication.Controllers
 {
     public class AdminController : Controller
     {
+        [Authorize(Roles = "Admin")]
         public IActionResult Index()
         {
-            //return View();
-            if (HttpContext.Session.GetString("role") == "admin")
-            {
+            return View();
+            //if (HttpContext.Session.GetString("role") == "admin")
+            //{
 
-                return View();
-            }
-            else
-            {
-                return RedirectToAction("Login");
-            }
+            //    return View();
+            //}
+            //else
+            //{
+            //    return RedirectToAction("Login");
+            //}
         }
 
         public IActionResult Login()
