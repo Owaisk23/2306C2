@@ -504,3 +504,15 @@ C:\Users\owaisahmed\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\refin
 C:\Users\owaisahmed\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\DBFirst.pdb
 C:\Users\owaisahmed\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\DBFirst.genruntimeconfig.cache
 C:\Users\owaisahmed\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\ref\DBFirst.dll
+Z:\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\DBFirst.csproj.AssemblyReference.cache
+Z:\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\DBFirst.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\DBFirst.AssemblyInfoInputs.cache
+Z:\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\DBFirst.AssemblyInfo.cs
+Z:\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\DBFirst.csproj.CoreCompileInputs.cache
+Z:\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\DBFirst.MvcApplicationPartsAssemblyInfo.cache
+Z:\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\DBFirst.RazorAssemblyInfo.cache
+Z:\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\DBFirst.RazorAssemblyInfo.cs
+Z:\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\DBFirst.sourcelink.json
+Z:\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\DBFirst.dll
+Z:\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\refint\DBFirst.dll
+Z:\Desktop\2306C2\DotNet\ImgCRUD\DBFirst\obj\Debug\net7.0\DBFirst.pdb
