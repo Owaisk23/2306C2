@@ -8,7 +8,7 @@ namespace Indexers
 {
     public class fruits
     {
-        public string[] fruitNames = new string[5];
+        public string[] fruitNames = new string[7];
 
         public string this[int i]
         {

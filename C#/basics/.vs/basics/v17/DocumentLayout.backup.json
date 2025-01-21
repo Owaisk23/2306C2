@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|z:\\desktop\\2306c2\\c#\\basics\\basics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|solutionrelative:basics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|z:\\desktop\\2306c2\\c#\\basics\\basics\\fruits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|solutionrelative:basics\\fruits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|z:\\desktop\\2306c2\\c#\\basics\\basics\\car..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|solutionrelative:basics\\car..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fruits.cs",
+              "DocumentMoniker": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\fruits.cs",
+              "RelativeDocumentMoniker": "basics\\fruits.cs",
+              "ToolTip": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\fruits.cs",
+              "RelativeToolTip": "basics\\fruits.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:36:02.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "car..cs",
+              "DocumentMoniker": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\car..cs",
+              "RelativeDocumentMoniker": "basics\\car..cs",
+              "ToolTip": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\car..cs",
+              "RelativeToolTip": "basics\\car..cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:35:44.066Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\Program.cs",
               "RelativeDocumentMoniker": "basics\\Program.cs",
-              "ToolTip": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\Program.cs",
-              "RelativeToolTip": "basics\\Program.cs",
-              "ViewState": "AgIAAIkCAAAAAAAAAAAIwJMCAAADAAAAAAAAAA==",
+              "ToolTip": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\Program.cs*",
+              "RelativeToolTip": "basics\\Program.cs*",
+              "ViewState": "AgIAAH0EAAAAAAAAAAAkwJkEAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T06:55:04.407Z",
               "EditorCaption": ""

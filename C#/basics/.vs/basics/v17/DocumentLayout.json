@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "Z:\\Desktop\\2306C2\\C#\\basics\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|z:\\desktop\\2306c2\\c#\\basics\\basics\\fruits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|solutionrelative:basics\\fruits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|z:\\desktop\\2306c2\\c#\\basics\\basics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|solutionrelative:basics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|z:\\desktop\\2306c2\\c#\\basics\\basics\\car..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|solutionrelative:basics\\car..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,12 +35,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "fruits.cs",
+              "DocumentMoniker": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\fruits.cs",
+              "RelativeDocumentMoniker": "basics\\fruits.cs",
+              "ToolTip": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\fruits.cs",
+              "RelativeToolTip": "basics\\fruits.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:36:02.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "car..cs",
+              "DocumentMoniker": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\car..cs",
+              "RelativeDocumentMoniker": "basics\\car..cs",
+              "ToolTip": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\car..cs",
+              "RelativeToolTip": "basics\\car..cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:35:44.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\Program.cs",
               "RelativeDocumentMoniker": "basics\\Program.cs",
               "ToolTip": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\Program.cs",
               "RelativeToolTip": "basics\\Program.cs",
-              "ViewState": "AgIAANsBAAAAAAAAAAAIwPABAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOQDAAAAAAAAAAAkwPYDAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T06:55:04.407Z",
               "EditorCaption": ""

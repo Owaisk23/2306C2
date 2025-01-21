@@ -1032,19 +1032,20 @@ using System.Linq;
 //public class Animal
 //{
 //    public string? Name { get; set; } //auto complete properties
-//    private int  age;
+//    private int age;
 
 
 //    public int Age
 //    {
 //        get { return age; }
 
-//        set { 
+//        set
+//        {
 
-//            if(value < 10)
+//            if (value < 10)
 //            {
 
-//            age = value;
+//                age = value;
 //            }
 //            else
 //            {
@@ -1065,24 +1066,20 @@ using System.Linq;
 
 //enum pakBatters
 //{
-//    Babar =56,
+//    Babar = 56,
 //    Rizwan = 33,
-//    Fakhar =45,
-//    Imad =75
+//    Fakhar = 45,
+//    Imad = 75
 //}
 
 
-//switch() { }
 
 
-//case (int)pakBatters.Fakhar:
-//    Console.WriteLine("January");
-//    break;
 
 //namespaces : a collection of related classes and sub namespaces.
 
-//using System;
-//using System.Collections;
+using System;
+using System.Collections;
 //using TaxMangementSytem;
 //using Indexers;
 
@@ -1096,7 +1093,7 @@ using System.Linq;
 
 
 
-////Indexers : when we want our object to behave like an array we implement indexers.
+//Indexers : when we want our object to behave like an array we implement indexers.
 
 //fruits basket = new fruits();
 //basket[0] = "Langra";
@@ -1104,6 +1101,8 @@ using System.Linq;
 //basket[2] = "Daseri";
 //basket[3] = "Sindhri";
 //basket[4] = "Anwer Ritol";
+//basket[5] = "ahbfdk";
+//basket[6] = "ahbfdk";
 
 //Console.WriteLine(basket[3]);
 
@@ -1138,7 +1137,8 @@ using System.Linq;
 ////Console.WriteLine(talha);
 //Console.WriteLine(talha == abdullah);
 
-//public class User{
+//public class User
+//{
 //    public int id { get; set; }
 //    public string? name { get; set; }
 //}
@@ -1152,38 +1152,38 @@ using System.Linq;
 
 //events
 
-//myCar Civic = new myCar();
-//Civic.speedUp += new myCar.speedCar(myCar.carMoved);
-//Civic.drive();
+myCar Civic = new myCar();
+Civic.speedUp += new myCar.speedCar(myCar.carMoved);
+Civic.drive();
 
 
-//public class myCar
-//{
-//    public delegate void speedCar();
-//    public event speedCar speedUp;
-//    public int speed = 0;
+public class myCar
+{
+    public delegate void speedCar();
+    public event speedCar speedUp;
+    public int speed = 0;
 
-//    public void drive()
-//    {
-//        for (int i = 1; i < 10; i++)
-//        {
-//            if (i > 5)
-//            {
-//                speedUp();
-//            }
-//            Console.WriteLine($"the car is moving at {i} mph");
-//            System.Threading.Thread.Sleep(1000);
-
-
-//        }
-//    }
-//    public static void carMoved()
-//    {
-//        Console.WriteLine("the speed limit has exceeded");
-//    }
+    public void drive()
+    {
+        for (int i = 1; i < 100; i++)
+        {
+            if (i > 50)
+            {
+                speedUp();
+            }
+            Console.WriteLine($"the car is moving at {i} mph");
+            System.Threading.Thread.Sleep(200);
 
 
-//}
+        }
+    }
+    public static void carMoved()
+    {
+        Console.WriteLine("the speed limit has exceeded");
+    }
+
+
+}
 
 
 
