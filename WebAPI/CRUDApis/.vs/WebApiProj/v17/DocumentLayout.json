@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\webapi\\WebApiProj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9445745-AA71-4448-ABED-5FE7568F281E}|WebApiProj\\WebApiProj.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\webapi\\webapiproj\\webapiproj\\controllers\\mycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9445745-AA71-4448-ABED-5FE7568F281E}|WebApiProj\\WebApiProj.csproj|solutionrelative:webapiproj\\controllers\\mycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9445745-AA71-4448-ABED-5FE7568F281E}|WebApiProj\\WebApiProj.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\webapi\\webapiproj\\webapiproj\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9445745-AA71-4448-ABED-5FE7568F281E}|WebApiProj\\WebApiProj.csproj|solutionrelative:webapiproj\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9445745-AA71-4448-ABED-5FE7568F281E}|WebApiProj\\WebApiProj.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\webapi\\webapiproj\\webapiproj\\models\\productscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9445745-AA71-4448-ABED-5FE7568F281E}|WebApiProj\\WebApiProj.csproj|solutionrelative:webapiproj\\models\\productscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9445745-AA71-4448-ABED-5FE7568F281E}|WebApiProj\\WebApiProj.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\webapi\\webapiproj\\webapiproj\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9445745-AA71-4448-ABED-5FE7568F281E}|WebApiProj\\WebApiProj.csproj|solutionrelative:webapiproj\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9445745-AA71-4448-ABED-5FE7568F281E}|WebApiProj\\WebApiProj.csproj|c:\\users\\owaisahmed\\onedrive - dawood university of engineering technology\\desktop\\dotnet\\webapi\\webapiproj\\webapiproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9445745-AA71-4448-ABED-5FE7568F281E}|WebApiProj\\WebApiProj.csproj|solutionrelative:webapiproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\webapi\\WebApiProj\\WebApiProj\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebApiProj\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\webapi\\WebApiProj\\WebApiProj\\Models\\Product.cs",
+              "RelativeToolTip": "WebApiProj\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:56:56.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\webapi\\WebApiProj\\WebApiProj\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiProj\\Program.cs",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\webapi\\WebApiProj\\WebApiProj\\Program.cs",
+              "RelativeToolTip": "WebApiProj\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T07:06:58.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsContext.cs",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\webapi\\WebApiProj\\WebApiProj\\Models\\ProductsContext.cs",
+              "RelativeDocumentMoniker": "WebApiProj\\Models\\ProductsContext.cs",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\webapi\\WebApiProj\\WebApiProj\\Models\\ProductsContext.cs",
+              "RelativeToolTip": "WebApiProj\\Models\\ProductsContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T07:02:57.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyController.cs",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\webapi\\WebApiProj\\WebApiProj\\Controllers\\MyController.cs",
+              "RelativeDocumentMoniker": "WebApiProj\\Controllers\\MyController.cs",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\webapi\\WebApiProj\\WebApiProj\\Controllers\\MyController.cs",
+              "RelativeToolTip": "WebApiProj\\Controllers\\MyController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T06:51:52.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\webapi\\WebApiProj\\WebApiProj\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApiProj\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\webapi\\WebApiProj\\WebApiProj\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApiProj\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T06:36:53.025Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

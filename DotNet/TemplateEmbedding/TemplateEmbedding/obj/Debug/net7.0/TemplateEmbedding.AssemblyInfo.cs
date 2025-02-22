@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TemplateEmbedding")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c43b914259820e18e9b3eec27abc28171521e734")]
 [assembly: System.Reflection.AssemblyProductAttribute("TemplateEmbedding")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TemplateEmbedding")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
