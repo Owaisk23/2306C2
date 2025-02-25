@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebApiProj.Models;
 
 namespace WebApiProj.Controllers
@@ -60,6 +61,54 @@ namespace WebApiProj.Controllers
             db.Products.Update(product);
             db.SaveChanges();
             return StatusCode(201);
+        }
+
+        [HttpGet("Search/{query}")]
+        public IActionResult SearchProduct(string query)
+        {
+            // For partial match search
+            var products = db.Products
+                                   .Where(o => o.Name.Contains(query)
+                                           || o.Description.Contains(query)
+                                          )
+                                   .ToList(); // Partial Match
+
+            return Ok(products);
+        }
+
+        //[HttpGet("Search}/{query}")]
+        ////[Route("{Search}/{query}")]
+        //public IActionResult SearchProduct(string query)
+        //{
+        //   // var products = _context.Products.Include(o => o.Brand).Where(o => o.Name==query || o.Description==query).ToList();//Exact match
+
+        // var products = _context.Products.Include(o => o.Brand).Where(o => o.Name.Contains(query) || o.Description.Contains(query)
+        // .ToList();//Partial Match
+
+        //    return Ok(products);
+        //}
+
+
+        [HttpGet("Pagination/{pageNo}/{pageSize}")]
+        public IActionResult Pagination(int pageNo = 1, int pageSize = 2)
+        {
+            int pageno = pageNo;
+            if (pageno < 1) pageno = 1;
+            int pagesize = pageSize;
+            if (pagesize < 1) pagesize = 1;
+            //5 -4 *5=> 3 *5=15
+            var getEvents = db.Products.Skip((pageno - 1) * pagesize).Take(pagesize);
+
+            if (getEvents != null)
+            {
+                return Ok(getEvents);
+            }
+            else
+            {
+
+                return Ok("End of list");
+            }
+            //return BadRequest("INVALID DATA");
         }
     }
 }
