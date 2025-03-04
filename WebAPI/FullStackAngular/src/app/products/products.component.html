@@ -1,0 +1,25 @@
+<button class="btn btn-primary" routerLink="/addproduct">Add new Product</button>
+<div class="container">
+    <div class="row">
+        @for(item of myProducts;track $index){
+        <div class="col-lg-4">
+          
+                <div class="card" >
+                   
+                    <div class="card-body">
+                      <h5 class="card-title">{{item.name}}
+                         
+                        </h5>
+                      <p class="card-text">{{item.description}}</p>
+                    
+                      <a href="#" class="btn btn-primary">$ {{item.price}}  </a>
+                      <a href="#" class="btn btn-primary" [routerLink]="['/editproduct',item.id]">Edit  </a>
+                      <a class="btn btn-danger" (click)="DeletProduct(item)" >Delete </a>
+                    </div>
+                  </div>
+        
+           
+        </div>
+    }
+    </div>
+</div>

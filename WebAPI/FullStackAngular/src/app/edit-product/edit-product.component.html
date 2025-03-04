@@ -1,0 +1,13 @@
+<h1>Edit product details</h1>
+<div class="container">
+
+    <form action="">
+    <input type="hidden" [(ngModel)]="product.id" name="id" class="form-control"><br>
+    <input type="text" [(ngModel)]="product.name" name="name" class="form-control" placeholder="name"><br>
+    <input type="text"  [(ngModel)]="product.description" name="description" class="form-control" placeholder="description"><br>
+    <input type="number" [(ngModel)]="product.price" name="price"  class="form-control" placeholder="price"><br>
+
+ 
+        <input type="button" value="Save changes" (click)="EditProduct(product)" class="form-control btn btn-success">
+    </form>
+</div>

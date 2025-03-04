@@ -1,0 +1,12 @@
+<h1>Enter Details of products</h1>
+<div class="container">
+
+    <form action="">
+    <input type="text" [(ngModel)]="product.name" name="name" class="form-control" placeholder="name"><br>
+    <input type="text"  [(ngModel)]="product.description" name="description" class="form-control" placeholder="description"><br>
+    <input type="number" [(ngModel)]="product.price" name="price"  class="form-control" placeholder="price"><br>
+
+    
+        <input type="button" value="Add product" (click)="AddProduct(product)" class="form-control btn btn-success">
+    </form>
+</div>
