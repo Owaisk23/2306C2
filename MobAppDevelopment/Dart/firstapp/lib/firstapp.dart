@@ -39,7 +39,7 @@ void main() {
   //Conditional Statements
   // if else
   stdout.write("Enter your age: ");
-  int driverAge = 10;
+  int driverAge = int.parse(stdin.readLineSync()!);
 
 
   if (driverAge >= 18) {
