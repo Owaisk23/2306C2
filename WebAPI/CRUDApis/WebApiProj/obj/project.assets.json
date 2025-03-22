@@ -8018,11 +8018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\webapi\\WebApiProj\\WebApiProj\\WebApiProj.csproj",
+      "projectUniqueName": "Z:\\Desktop\\2306C2\\WebAPI\\CRUDApis\\WebApiProj\\WebApiProj.csproj",
       "projectName": "WebApiProj",
-      "projectPath": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\webapi\\WebApiProj\\WebApiProj\\WebApiProj.csproj",
+      "projectPath": "Z:\\Desktop\\2306C2\\WebAPI\\CRUDApis\\WebApiProj\\WebApiProj.csproj",
       "packagesPath": "C:\\Users\\owaisahmed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\owaisahmed\\OneDrive - Dawood University of Engineering Technology\\Desktop\\DOTNET\\webapi\\WebApiProj\\WebApiProj\\obj\\",
+      "outputPath": "Z:\\Desktop\\2306C2\\WebAPI\\CRUDApis\\WebApiProj\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
