@@ -109,4 +109,20 @@ void main() {
   print(person["name"]);
   print(person["age"]);
   print(person["city"]);
+
+  //add
+  person["country"] = "Pakistan";
+  person["profession"] = "Software Engineer";
+  print(person);
+
+  //remove
+  person.remove("age");
+  print(person);
+  //update
+  person["name"] = "Ali";
+  print(person);
+  //clear 
+  person.clear();
+  print(person);
+
 }
