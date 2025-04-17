@@ -31,30 +31,35 @@ class _FirstScreenState extends State<FirstScreen> {
               height: 100,
               width: 100,
               color: Colors.red,
+              child: Icon(Icons.home, color: Colors.white, size: 50,),
             ),
             SizedBox(height: 10,),
             Container(
               height: 100,
               width: 100,
-              color: Colors.yellow,
+              color: Colors.brown,
+              child: Icon(Icons.access_alarm, color: Colors.white, size: 50,),
             ),
             SizedBox(height: 10,),
             Container(
               height: 100,
               width: 100,
               color: Colors.green,
+              child: Icon(Icons.cabin, color: Colors.white, size: 50,),
             ),
             SizedBox(height: 10,),
             Container(
               height: 100,
               width: 100,
               color: Colors.blue,
+              child: Icon(Icons.leaderboard, color: Colors.white, size: 50,),
             ),
             SizedBox(height: 10,),
             Container(
               height: 100,
               width: 100,
               color: Colors.pink,
+              child: Icon(Icons.wheelchair_pickup, color: Colors.white, size: 50,),
             )
             
            
