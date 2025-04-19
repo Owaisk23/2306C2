@@ -607,7 +607,7 @@ using System.Linq;
 //Aeroplane f16 = new Aeroplane("PAF");
 //f16.takeOff();
 
-//Aeroplane f17 = new Aeroplane("PAF","F-17 Thunder",2,2,"8500hp");
+//Aeroplane f17 = new Aeroplane("PAF", "F-17 Thunder", 2, 2, "8500hp");
 //f17.takeOff();
 //f17.land();
 
@@ -685,53 +685,53 @@ using System.Linq;
 //Vehicle abc = new Vehicle("AAZ-789", "Metallic grey");
 //abc.Run();
 
-//Car mercedez = new Car("TZ-8908", "Black", "Mercedez", "Benz C-Class", 20000000);
-////mercedez.Run();
+Car mercedez = new Car("TZ-8908", "Black", "Mercedez", "Benz C-Class", 20000000);
+mercedez.Run();
 //mercedez.Run(500);
 
-////// Parent class | Base Class | Super Class
-//public class Vehicle
-//{
-//    public string regNo;
-//    public string color;
+//// Parent class | Base Class | Super Class
+public class Vehicle
+{
+    public string regNo;
+    public string color;
 
-//    public Vehicle(string regno, string color)
-//    {
-//        this.regNo = regno;
-//        this.color = color;
-//    }
-//    public void Run()
-//    {
-//        Console.WriteLine($"{this.regNo} vehicle started running");
-//    }
-//}
-////// Child class | Derived Class | Sub Class
-//public class Car : Vehicle
-//{
+    public Vehicle(string regno, string color)
+    {
+        this.regNo = regno;
+        this.color = color;
+    }
+    public void Run()
+    {
+        Console.WriteLine($"{this.regNo} vehicle started running");
+    }
+}
+//// Child class | Derived Class | Sub Class
+public class Car : Vehicle
+{
 
-//    public string brand;
-//    public string model;
-//    public int price;
+    public string brand;
+    public string model;
+    public int price;
 
-//    public Car(string regno, string color, string brand, string model, int price) : base(regno, color)
-//    {
-//        this.brand = brand;
-//        this.model = model;
-//        this.price = price;
-//    }
+    public Car(string regno, string color, string brand, string model, int price) : base(regno, color)
+    {
+        this.brand = brand;
+        this.model = model;
+        this.price = price;
+    }
 
-//    //method overriding
-//    public void Run()
-//    {
-//        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running");
-//    }
-//    //method overloading
-//    public void Run(int speed)
-//    {
-//        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running at {speed} MPH.");
-//    }
+    //method overriding
+    public void Run()
+    {
+        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running");
+    }
+    //method overloading
+    public void Run(int speed)
+    {
+        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running at {speed} MPH.");
+    }
 
-//}
+}
 //Vehicle abc = new Vehicle("AAZ-789", "Metallic grey");
 //abc.Run();
 
@@ -1078,8 +1078,8 @@ using System.Linq;
 
 //namespaces : a collection of related classes and sub namespaces.
 
-using System;
-using System.Collections;
+//using System;
+//using System.Collections;
 //using TaxMangementSytem;
 //using Indexers;
 
@@ -1152,38 +1152,38 @@ using System.Collections;
 
 //events
 
-myCar Civic = new myCar();
-Civic.speedUp += new myCar.speedCar(myCar.carMoved);
-Civic.drive();
+//myCar Civic = new myCar();
+//Civic.speedUp += new myCar.speedCar(myCar.carMoved);
+//Civic.drive();
 
 
-public class myCar
-{
-    public delegate void speedCar();
-    public event speedCar speedUp;
-    public int speed = 0;
+//public class myCar
+//{
+//    public delegate void speedCar();
+//    public event speedCar speedUp;
+//    public int speed = 0;
 
-    public void drive()
-    {
-        for (int i = 1; i < 100; i++)
-        {
-            if (i > 50)
-            {
-                speedUp();
-            }
-            Console.WriteLine($"the car is moving at {i} mph");
-            System.Threading.Thread.Sleep(200);
-
-
-        }
-    }
-    public static void carMoved()
-    {
-        Console.WriteLine("the speed limit has exceeded");
-    }
+//    public void drive()
+//    {
+//        for (int i = 1; i < 100; i++)
+//        {
+//            if (i > 50)
+//            {
+//                speedUp();
+//            }
+//            Console.WriteLine($"the car is moving at {i} mph");
+//            System.Threading.Thread.Sleep(200);
 
 
-}
+//        }
+//    }
+//    public static void carMoved()
+//    {
+//        Console.WriteLine("the speed limit has exceeded");
+//    }
+
+
+//}
 
 
 
