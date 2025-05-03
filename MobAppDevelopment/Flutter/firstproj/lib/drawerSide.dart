@@ -1,3 +1,5 @@
+import 'package:firstproj/darazScreen.dart';
+import 'package:firstproj/dynamicList.dart';
 import 'package:firstproj/firstScreen.dart';
 import 'package:firstproj/product.dart';
 import 'package:firstproj/scndScreen.dart';
@@ -33,6 +35,20 @@ class _DrawerSideState extends State<DrawerSide> {
             title: Text('Home'),
             onTap: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) => Product()));
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.production_quantity_limits),
+            title: Text('Daraz Screen'),
+            onTap: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => DarazScreen()));
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.production_quantity_limits),
+            title: Text('Dynamic List Screen'),
+            onTap: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => DynamicList()));
             },
           ),
           ListTile(
