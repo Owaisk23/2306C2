@@ -1,17 +1,26 @@
-
-// import 'package:firstproj/firstScreen.dart';
-// import 'package:firstproj/darazScreen.dart';
+import 'package:device_preview/device_preview.dart';
 import 'package:firstproj/signup.dart';
-// import 'package:firstproj/dynamicList.dart';
-// import 'package:firstproj/product.dart';
-// import 'package:firstproj/scndScreen.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-void main(){
-  runApp(
-    MaterialApp(
+void main() => runApp(
+  DevicePreview(
+    enabled: !kReleaseMode,
+    builder: (context) => MyApp(), // Wrap your app
+  ),
+);
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      // useInheritedMediaQuery: true,
+      locale: DevicePreview.locale(context),
+      builder: DevicePreview.appBuilder,
+      theme: ThemeData.light(),
+      darkTheme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home: Signup(),
-    )
-  );
+      home:  Signup(),
+    );
+  }
 }
