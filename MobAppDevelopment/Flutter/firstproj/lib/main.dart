@@ -1,5 +1,6 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:firstproj/ApiProduct.dart';
+import 'package:firstproj/songApp.dart';
 // import 'package:firstproj/signup.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home:  ApiProduct(),
+      home:  SongApp(),
     );
   }
 }

@@ -5,6 +5,7 @@ import 'package:firstproj/firstScreen.dart';
 import 'package:firstproj/product.dart';
 import 'package:firstproj/scndScreen.dart';
 import 'package:firstproj/signup.dart';
+import 'package:firstproj/songApp.dart';
 import 'package:flutter/material.dart';
 
 class DrawerSide extends StatefulWidget {
@@ -51,6 +52,13 @@ class _DrawerSideState extends State<DrawerSide> {
             title: Text('Home'),
             onTap: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) => Product()));
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.production_quantity_limits),
+            title: Text('Song App'),
+            onTap: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => SongApp()));
             },
           ),
           ListTile(
