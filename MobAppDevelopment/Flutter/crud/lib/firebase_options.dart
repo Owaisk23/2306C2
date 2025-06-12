@@ -57,7 +57,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyDdT-mbRQ4FffK0WsM6bXpo_yQZV5hKvbY',
-    appId: '1:885782899415:android:e0595cbd1920affb06de92',
+    appId: '1:885782899415:android:472316a09b5d313c06de92',
     messagingSenderId: '885782899415',
     projectId: 'crud-2306c2',
     storageBucket: 'crud-2306c2.firebasestorage.app',
@@ -65,11 +65,10 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBIOxHAm2UvtTxgRLzqMUEekrCx0H2Rqms',
-    appId: '1:885782899415:ios:2e1df0d0f1e0cdd706de92',
+    appId: '1:885782899415:ios:9f389abdc5b8457106de92',
     messagingSenderId: '885782899415',
     projectId: 'crud-2306c2',
     storageBucket: 'crud-2306c2.firebasestorage.app',
-    iosBundleId: 'com.example.demo',
+    iosBundleId: 'com.example.crud',
   );
-
 }

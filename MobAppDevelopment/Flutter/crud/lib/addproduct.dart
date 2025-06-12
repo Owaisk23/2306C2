@@ -96,7 +96,7 @@ setState(() {
                       content: 
                     Text("Product added successfully..✔",style: TextStyle(color: Colors.white),), backgroundColor: Colors.purple,)) ,
 
-                    // Navigator.pop(context),
+                    Navigator.pop(context),
                   }).catchError((error) => {
                     ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Failed to add product"),))
                   });

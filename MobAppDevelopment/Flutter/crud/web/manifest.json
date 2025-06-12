@@ -1,6 +1,6 @@
 {
-    "name": "demo",
-    "short_name": "demo",
+    "name": "crud",
+    "short_name": "crud",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
