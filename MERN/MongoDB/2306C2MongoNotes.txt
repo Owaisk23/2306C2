@@ -1,0 +1,22 @@
+cmd--> terminal 
+1st Command: mongosh
+
+//fetch all databases
+show dbs
+
+//use database
+use databaseName
+
+//fetch collections 
+show collections
+
+//insertOne data
+ db.students.insertOne({name: "Muhammad Ali", age: 31, major: "Physcology"})
+
+//fetch all collection data
+db.students.find()
+
+//insertMany data
+db.students.insertMany([{name: "Taha Ali", age: 18, major: "Maths"},{name: "Azhar Ali", age: 23, major: "Bio Science"}])  
+
+
