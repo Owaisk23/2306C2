@@ -19,4 +19,26 @@ db.students.find()
 //insertMany data
 db.students.insertMany([{name: "Taha Ali", age: 18, major: "Maths"},{name: "Azhar Ali", age: 23, major: "Bio Science"}])  
 
+operators  "$":
+lt
+gt
+lte
+gte
+ne
+in ["karachi", "Lahore","Hyderabad"]
+nin  ["karachi", "Lahore","Hyderabad"]
+and
+or
+not
+\\
+//joins
+
+db.employees.aggregate( [{ $lookup: { from: "departments", localField: "deptId", foreignField: "_id", as: "department" } }]);
+
+ db.employees.insertMany([{name:"Haris Naseer",salary:50000, deptId:ObjectId('688b13db7f772771f88bcce7')} ,{name:"Owais Ahmed",salary:50000, deptId:ObjectId('688b13db7f772771f88bcce8')}])
+
+ db.departments.insertMany([{deptName:"Academics",head:"Sir Hassan",aim:"To excel the academics"},{deptName:"Accounts",head:"Sir Mehmood",aim:"To ensure the flow of funds with accuracy and smoothness"},])
+
+
+
 

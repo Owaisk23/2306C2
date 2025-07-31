@@ -5,7 +5,7 @@ import 'package:firebase_crud/addproduct.dart';
 import 'package:firebase_crud/firebase_options.dart';
 import 'package:firebase_crud/products.dart';
 import 'package:firebase_crud/signup.dart';
-import 'package:firebase_crud/splashScreen.dart';
+import 'package:firebase_crud/splashScreen.dart'; 
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
