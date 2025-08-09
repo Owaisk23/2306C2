@@ -812,10 +812,10 @@ using System.Linq;
 
 //}
 
-//Interfaces
-FrontEndDeveloper ashar = new FrontEndDeveloper();
-ashar.ComplexDesign("Ashar Ahmed");
-ashar.SimpleDesign();
+////Interfaces
+//FrontEndDeveloper ashar = new FrontEndDeveloper();
+//ashar.ComplexDesign("Ashar Ahmed");
+//ashar.SimpleDesign();
 
 //FullStackDeveloper usama = new FullStackDeveloper();
 //usama.SimpleDesign();
@@ -827,37 +827,37 @@ ashar.SimpleDesign();
 //Interfaces,
 //        Static,
 //       Abstract
-//} 
-interface FrontEndDevelopment
-{
-    public void SimpleDesign();
-    public void ComplexDesign(string name);
+////} 
+//interface FrontEndDevelopment
+//{
+//    public void SimpleDesign();
+//    public void ComplexDesign(string name);
 
-}
+//}
 
 
-interface BackEndDevelopment
-{
-    public void SimpleCrud();
-    public void ComplexAPIs();
-    public void Authentication();
+//interface BackEndDevelopment
+//{
+//    public void SimpleCrud();
+//    public void ComplexAPIs();
+//    public void Authentication();
 
-}
+//}
 
-public class FrontEndDeveloper : FrontEndDevelopment
-{
-    //method implementation
-    public void SimpleDesign()
-    {
-        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
-    }
-    public void ComplexDesign(string name)
-    {
-        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, " +
-            $"Nextjs.");
-    }
+//public class FrontEndDeveloper : FrontEndDevelopment
+//{
+//    //method implementation
+//    public void SimpleDesign()
+//    {
+//        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+//    }
+//    public void ComplexDesign(string name)
+//    {
+//        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, " +
+//            $"Nextjs.");
+//    }
 
-}
+//}
 
 
 
@@ -1049,7 +1049,7 @@ public class FrontEndDeveloper : FrontEndDevelopment
 //            }
 //            else
 //            {
-//                age = 10;
+
 //            }
 //        }
 //    }
@@ -1123,7 +1123,7 @@ public class FrontEndDeveloper : FrontEndDevelopment
 //haris.name = "Ahmed Hassan";
 
 
-////Console.WriteLine(ahmed);
+//Console.WriteLine(ahmed);
 //Console.WriteLine(ahmed == haris);
 
 //User1 talha = new User1();
@@ -1134,7 +1134,7 @@ public class FrontEndDeveloper : FrontEndDevelopment
 //abdullah.id = 2;
 //abdullah.name = "Mirza talha";
 
-////Console.WriteLine(talha);
+//Console.WriteLine(talha);
 //Console.WriteLine(talha == abdullah);
 
 //public class User
