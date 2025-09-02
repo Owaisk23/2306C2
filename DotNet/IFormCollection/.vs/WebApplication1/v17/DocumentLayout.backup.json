@@ -9,6 +9,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{759170B0-38FB-4703-9CC6-71465A5C6C9E}|WebApplication1\\WebApplication1.csproj|z:\\desktop\\2306c2\\dotnet\\iformcollection\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{759170B0-38FB-4703-9CC6-71465A5C6C9E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759170B0-38FB-4703-9CC6-71465A5C6C9E}|WebApplication1\\WebApplication1.csproj|z:\\desktop\\2306c2\\dotnet\\iformcollection\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{759170B0-38FB-4703-9CC6-71465A5C6C9E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759170B0-38FB-4703-9CC6-71465A5C6C9E}|WebApplication1\\WebApplication1.csproj|z:\\desktop\\2306c2\\dotnet\\iformcollection\\webapplication1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{759170B0-38FB-4703-9CC6-71465A5C6C9E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +26,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "Z:\\Desktop\\2306C2\\DotNet\\IFormCollection\\WebApplication1\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "Z:\\Desktop\\2306C2\\DotNet\\IFormCollection\\WebApplication1\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T12:25:16.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "Z:\\Desktop\\2306C2\\DotNet\\IFormCollection\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "Z:\\Desktop\\2306C2\\DotNet\\IFormCollection\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-18T12:22:56.034Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +66,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\my.cshtml",
               "ToolTip": "Z:\\Desktop\\2306C2\\DotNet\\IFormCollection\\WebApplication1\\Views\\Home\\my.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Home\\my.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwCEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-13T05:22:48.995Z",
               "EditorCaption": ""
@@ -41,7 +79,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
               "ToolTip": "Z:\\Desktop\\2306C2\\DotNet\\IFormCollection\\WebApplication1\\Controllers\\HomeController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwCkAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T05:20:40.497Z",
               "EditorCaption": ""
