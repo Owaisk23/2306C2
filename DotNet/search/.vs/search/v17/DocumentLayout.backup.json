@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "Z:\\Desktop\\2306C2\\DotNet\\search\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{641E564A-5115-48B9-B1A0-69CC97C9586F}|search\\search.csproj|z:\\desktop\\2306c2\\dotnet\\search\\search\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{641E564A-5115-48B9-B1A0-69CC97C9586F}|search\\search.csproj|solutionrelative:search\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{641E564A-5115-48B9-B1A0-69CC97C9586F}|search\\search.csproj|z:\\desktop\\2306c2\\dotnet\\search\\search\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{641E564A-5115-48B9-B1A0-69CC97C9586F}|search\\search.csproj|solutionrelative:search\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641E564A-5115-48B9-B1A0-69CC97C9586F}|search\\search.csproj|z:\\desktop\\2306c2\\dotnet\\search\\search\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{641E564A-5115-48B9-B1A0-69CC97C9586F}|search\\search.csproj|solutionrelative:search\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{641E564A-5115-48B9-B1A0-69CC97C9586F}|search\\search.csproj|z:\\desktop\\2306c2\\dotnet\\search\\search\\models\\ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "Z:\\Desktop\\2306C2\\DotNet\\search\\search\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "search\\Views\\Home\\Index.cshtml",
-              "ToolTip": "Z:\\Desktop\\2306C2\\DotNet\\search\\search\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "search\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-23T11:38:15.632Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -48,12 +35,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "Z:\\Desktop\\2306C2\\DotNet\\search\\search\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "search\\Views\\Home\\Index.cshtml",
+              "ToolTip": "Z:\\Desktop\\2306C2\\DotNet\\search\\search\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "search\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T11:38:15.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "Z:\\Desktop\\2306C2\\DotNet\\search\\search\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "search\\Controllers\\HomeController.cs",
               "ToolTip": "Z:\\Desktop\\2306C2\\DotNet\\search\\search\\Controllers\\HomeController.cs",
               "RelativeToolTip": "search\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCMAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T11:35:27.571Z",
               "EditorCaption": ""

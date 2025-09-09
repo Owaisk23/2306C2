@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "search\\Views\\Home\\Index.cshtml",
               "ToolTip": "Z:\\Desktop\\2306C2\\DotNet\\search\\search\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "search\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-23T11:38:15.632Z",
               "EditorCaption": ""
@@ -53,9 +53,10 @@
               "RelativeDocumentMoniker": "search\\Controllers\\HomeController.cs",
               "ToolTip": "Z:\\Desktop\\2306C2\\DotNet\\search\\search\\Controllers\\HomeController.cs",
               "RelativeToolTip": "search\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCMAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T11:35:27.571Z"
+              "WhenOpened": "2024-12-23T11:35:27.571Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

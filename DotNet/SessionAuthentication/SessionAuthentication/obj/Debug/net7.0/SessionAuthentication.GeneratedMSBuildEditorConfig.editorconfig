@@ -9,59 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SessionAuthentication
 build_property.RootNamespace = SessionAuthentication
-build_property.ProjectDir = \\SERVER2\faculty_drive\OwaisAhmed\Desktop\2306C2\DotNet\SessionAuthentication\SessionAuthentication\
+build_property.ProjectDir = Z:\Desktop\2306C2\DotNet\SessionAuthentication\SessionAuthentication\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = \\SERVER2\faculty_drive\OwaisAhmed\Desktop\2306C2\DotNet\SessionAuthentication\SessionAuthentication
+build_property.MSBuildProjectDirectory = Z:\Desktop\2306C2\DotNet\SessionAuthentication\SessionAuthentication
 build_property._RazorSourceGeneratorDebug = 
 
-[//SERVER2/faculty_drive/OwaisAhmed/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Admin/Index.cshtml]
+[Z:/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[//SERVER2/faculty_drive/OwaisAhmed/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Admin/Login.cshtml]
+[Z:/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Admin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[//SERVER2/faculty_drive/OwaisAhmed/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Auth/Login.cshtml]
+[Z:/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[//SERVER2/faculty_drive/OwaisAhmed/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Auth/Signup.cshtml]
+[Z:/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Auth/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[//SERVER2/faculty_drive/OwaisAhmed/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Client/Index.cshtml]
+[Z:/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Client/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[//SERVER2/faculty_drive/OwaisAhmed/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Home/Index.cshtml]
+[Z:/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[//SERVER2/faculty_drive/OwaisAhmed/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Home/Privacy.cshtml]
+[Z:/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[//SERVER2/faculty_drive/OwaisAhmed/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Shared/Error.cshtml]
+[Z:/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[//SERVER2/faculty_drive/OwaisAhmed/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[Z:/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[//SERVER2/faculty_drive/OwaisAhmed/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/_ViewImports.cshtml]
+[Z:/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[//SERVER2/faculty_drive/OwaisAhmed/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/_ViewStart.cshtml]
+[Z:/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[//SERVER2/faculty_drive/OwaisAhmed/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Shared/_Layout.cshtml]
+[Z:/Desktop/2306C2/DotNet/SessionAuthentication/SessionAuthentication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bwoqeju7y6

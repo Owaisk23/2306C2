@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\SERVER2\\faculty_drive\\OwaisAhmed\\Desktop\\2306C2\\DotNet\\SessionAuthentication\\SessionAuthentication\\SessionAuthentication.csproj": {}
+    "Z:\\Desktop\\2306C2\\DotNet\\SessionAuthentication\\SessionAuthentication\\SessionAuthentication.csproj": {}
   },
   "projects": {
-    "\\\\SERVER2\\faculty_drive\\OwaisAhmed\\Desktop\\2306C2\\DotNet\\SessionAuthentication\\SessionAuthentication\\SessionAuthentication.csproj": {
+    "Z:\\Desktop\\2306C2\\DotNet\\SessionAuthentication\\SessionAuthentication\\SessionAuthentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\SERVER2\\faculty_drive\\OwaisAhmed\\Desktop\\2306C2\\DotNet\\SessionAuthentication\\SessionAuthentication\\SessionAuthentication.csproj",
+        "projectUniqueName": "Z:\\Desktop\\2306C2\\DotNet\\SessionAuthentication\\SessionAuthentication\\SessionAuthentication.csproj",
         "projectName": "SessionAuthentication",
-        "projectPath": "\\\\SERVER2\\faculty_drive\\OwaisAhmed\\Desktop\\2306C2\\DotNet\\SessionAuthentication\\SessionAuthentication\\SessionAuthentication.csproj",
+        "projectPath": "Z:\\Desktop\\2306C2\\DotNet\\SessionAuthentication\\SessionAuthentication\\SessionAuthentication.csproj",
         "packagesPath": "C:\\Users\\owaisahmed\\.nuget\\packages\\",
-        "outputPath": "\\\\SERVER2\\faculty_drive\\OwaisAhmed\\Desktop\\2306C2\\DotNet\\SessionAuthentication\\SessionAuthentication\\obj\\",
+        "outputPath": "Z:\\Desktop\\2306C2\\DotNet\\SessionAuthentication\\SessionAuthentication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
