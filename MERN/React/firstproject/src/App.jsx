@@ -1,7 +1,9 @@
+import Bulb from "./components/Bulb";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 import MyName from "./components/MyName";
 import Navbar from "./components/Navbar";
+import Todo from "./components/Todo";
 
 function App() {
   let userData = [
@@ -64,6 +66,10 @@ function App() {
         })
       }
       
+      <Bulb />
+
+      <Todo />
+
       <Footer/>
     </>
   );
