@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 const Todo = () => {
-  const [list, setList] = useState([]);
+  const [list, setList] = useState(["Apple", "Banana"]);
   const [text, setText] = useState("");
 
   const addTodo = () => {
