@@ -1,11 +1,16 @@
 import { useState } from "react";
 import Bulb from "./components/Bulb";
 import Cards from "./components/Cards";
+
 import Footer from "./components/Footer";
 import MyName from "./components/MyName";
 import Navbar from "./components/Navbar";
 import Todo from "./components/Todo";
 import ApiFetch from "./components/ApiFetch";
+import {Route, Routes} from "react-router";
+import Dashboard from "./components/Dashboard";
+import Parent from "./components/Parent";
+
 
 function App() {
   let userData = [
@@ -71,11 +76,11 @@ function App() {
     <>
       <Navbar />
       <h1 className="heading">Hello in React JS</h1>
-      <h2>{count}</h2>
+      {/* <h2>{count}</h2>
       <button className="btn btn-primary" onClick={handleIncremtent}>Increment({count})</button>
       
       <h2>Name: {user.name} Profession: {user.profession}</h2>
-      <button className="btn btn-primary" onClick={updateUser}>Update User</button>
+      <button className="btn btn-primary" onClick={updateUser}>Update User</button> */}
       {/* <MyName name={"Owais Ahmed Khan"} profession={"Software Developer"}/>
       <MyName name={"Javeria"} profession={"Doctor"}/>
       <MyName name={"M Ali"} profession={"Lover"}/>
@@ -97,9 +102,32 @@ function App() {
       
       {/* <Bulb /> */}
 
-      <Todo />
+      {/* <Todo /> */}
 
-      <ApiFetch/>
+      {/* <ApiFetch/> */}
+
+      {/* Routing in React */}
+      {/*Nested Or Group Routes  */}
+      <Routes>
+        <Route path="/" element={<Parent/>}/>
+        <Route path="/bulb" element={<Bulb/>}/>
+        <Route path="/todo" element={<Todo/>}/>
+        <Route path="*" element={<h1>404 Error Page Not Found</h1>}/>
+        <Route path="admin/">
+          <Route path="dashboard" element={<Dashboard/>}/>
+          <Route path="products/">
+            <Route path="add" element={<Cards/>}/>
+            <Route path="show" element={<Bulb/>}/>
+          </Route>
+        </Route>
+        
+      {/* Consider you have 4 Roles
+      Admin have 4 group routes
+      Seller has 2 group routes
+      Employee has 3 group routes */}
+
+      </Routes>
+
 
       <Footer/>
     </>
