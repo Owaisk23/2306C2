@@ -13,9 +13,9 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/contact', (req, res) => {
-  res.send('Hello from Contact Page!')
-})
+// app.get('/contact', (req, res) => {
+//   res.send('Hello from Contact Page!')
+// })
 
 app.get('/about', (req, res) => {
   res.send('Hello from About Page!')
@@ -61,6 +61,25 @@ app.get('/posts/:id', (req, res) => {
     res.json(postObj);
 })
 
+
+// Query Parameters (They are option)
+app.get('/categories', (req, res) => {
+  if(req.query.name){
+    res.json({name: "Category: " + req.query.name})
+  }
+  else {
+    res.json({name: "All Categories"})
+  }
+})
+
+// Request Body (They are used to send data to server)
+app.get('/contact', (req, res) => {
+  const name = req.body.name;
+  const age = req.body.age;
+  const city = req.body.city;
+
+  res.json({name: name, age: age, city: city})
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
