@@ -1,13 +1,19 @@
 // const express = require('express')
-import e from 'express';
+
 import express from 'express';
 import path from 'path';
+import fs from 'node:fs';
+
+
 const app = express()
 const port = 3000
 app.use(express.json());
 
 const dirname = path.resolve();
 
+const data = JSON.parse(fs.readFileSync('data.json', 'utf-8'));
+
+let products = data.products;
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
@@ -74,12 +80,31 @@ app.get('/categories', (req, res) => {
 
 // Request Body (They are used to send data to server)
 app.get('/contact', (req, res) => {
-  const name = req.body.name;
-  const age = req.body.age;
-  const city = req.body.city;
+  // const name = req.body.name;
+  // const age = req.body.age;
+  // const city = req.body.city;
 
+    // Destructing
+    const {name, age, city} = req.body;
   res.json({name: name, age: age, city: city})
 })
+
+app.get('/products', (req, res) => {
+  try{
+    res.status(200).json({message: "Showing our products", products: products});
+  }catch(error){
+    console.log(error);
+    res.status(500).json({message: error.message})
+  }
+})
+
+
+
+
+
+
+
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
