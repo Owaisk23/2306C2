@@ -597,14 +597,15 @@ using System.Linq;
 //OOP
 //Objects and Classes
 
-//Aeroplane Boeing707 = new Aeroplane();//default constructor
-
+//Aeroplane     Boeing707 = new Aeroplane();//default constructor
+////className   ObjName     new Constructor 
 
 //Boeing707.Name = "Boeing 707";
 //Boeing707.takeOff();
 //Console.WriteLine(Boeing707.AirLine);
 
 //Aeroplane f16 = new Aeroplane("PAF");
+//Console.WriteLine(f16.AirLine);
 //f16.takeOff();
 
 //Aeroplane f17 = new Aeroplane("PAF", "F-17 Thunder", 2, 2, "8500hp");
@@ -613,6 +614,7 @@ using System.Linq;
 
 //public class Aeroplane
 //{
+//    //properties
 //    public string? AirLine;
 //    public string? Name;
 //    public int Seats;
@@ -648,6 +650,8 @@ using System.Linq;
 //        this.Crew = crew;
 //        this.Power = pow;
 //    }
+
+//    //methods
 //    public void takeOff()
 //    {
 //        Console.WriteLine($"{this.Name} is taking off. Best Wishes..!");
@@ -685,53 +689,53 @@ using System.Linq;
 //Vehicle abc = new Vehicle("AAZ-789", "Metallic grey");
 //abc.Run();
 
-//Car mercedez = new Car("TZ-8908", "Black", "Mercedez", "Benz C-Class", 20000000);
+Car mercedez = new Car("TZ-8908", "Black", "Mercedez", "Benz C-Class", 20000000);
 //mercedez.Run();
-//mercedez.Run(500);
+mercedez.Run(500);
 
-//// Parent class | Base Class | Super Class
-//public class Vehicle
-//{
-//    public string regNo;
-//    public string color;
+// Parent class | Base Class | Super Class
+public class Vehicle
+{
+    public string regNo;
+    public string color;
 
-//    public Vehicle(string regno, string color)
-//    {
-//        this.regNo = regno;
-//        this.color = color;
-//    }
-//    public void Run()
-//    {
-//        Console.WriteLine($"{this.regNo} vehicle started running");
-//    }
-//}
-////// Child class | Derived Class | Sub Class
-//public class Car : Vehicle
-//{
+    public Vehicle(string regno, string color)
+    {
+        this.regNo = regno;
+        this.color = color;
+    }
+    public void Run()
+    {
+        Console.WriteLine($"{this.regNo} vehicle started running");
+    }
+}
+//// Child class | Derived Class | Sub Class
+public class Car : Vehicle
+{
 
-//    public string brand;
-//    public string model;
-//    public int price;
+    public string brand;
+    public string model;
+    public int price;
 
-//    public Car(string regno, string color, string brand, string model, int price) : base(regno, color)
-//    {
-//        this.brand = brand;
-//        this.model = model;
-//        this.price = price;
-//    }
+    public Car(string regno, string color, string brand, string model, int price) : base(regno, color)
+    {
+        this.brand = brand;
+        this.model = model;
+        this.price = price;
+    }
 
-//    //method overriding
-//    public void Run()
-//    {
-//        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running");
-//    }
-//    //method overloading
-//    public void Run(int speed)
-//    {
-//        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running at {speed} MPH.");
-//    }
+    //method overriding
+    public void Run()
+    {
+        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running");
+    }
+    //method overloading
+    public void Run(int speed)
+    {
+        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running at {speed} MPH.");
+    }
 
-//}
+}
 //Vehicle abc = new Vehicle("AAZ-789", "Metallic grey");
 //abc.Run();
 

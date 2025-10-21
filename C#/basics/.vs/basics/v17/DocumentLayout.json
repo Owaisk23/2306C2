@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|z:\\desktop\\2306c2\\c#\\basics\\basics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|solutionrelative:basics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|z:\\desktop\\2306c2\\c#\\basics\\basics\\fruits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|solutionrelative:basics\\fruits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|z:\\desktop\\2306c2\\c#\\basics\\basics\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|solutionrelative:basics\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|z:\\desktop\\2306c2\\c#\\basics\\basics\\taxmanagementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|solutionrelative:basics\\taxmanagementsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|z:\\desktop\\2306c2\\c#\\basics\\basics\\car..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FA9F94-C58D-44CA-BB30-BAEF27316B3A}|basics\\basics.csproj|solutionrelative:basics\\car..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +38,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Car.cs",
+              "DocumentMoniker": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\Car.cs",
+              "RelativeDocumentMoniker": "basics\\Car.cs",
+              "ToolTip": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\Car.cs",
+              "RelativeToolTip": "basics\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:18:25.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaxManagementSystem.cs",
+              "DocumentMoniker": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\TaxManagementSystem.cs",
+              "RelativeDocumentMoniker": "basics\\TaxManagementSystem.cs",
+              "ToolTip": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\TaxManagementSystem.cs",
+              "RelativeToolTip": "basics\\TaxManagementSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:18:01.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fruits.cs",
+              "DocumentMoniker": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\fruits.cs",
+              "RelativeDocumentMoniker": "basics\\fruits.cs",
+              "ToolTip": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\fruits.cs",
+              "RelativeToolTip": "basics\\fruits.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:17:59.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "car..cs",
+              "DocumentMoniker": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\car..cs",
+              "RelativeDocumentMoniker": "basics\\car..cs",
+              "ToolTip": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\car..cs",
+              "RelativeToolTip": "basics\\car..cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T11:17:58.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\Program.cs",
               "RelativeDocumentMoniker": "basics\\Program.cs",
-              "ToolTip": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\Program.cs",
-              "RelativeToolTip": "basics\\Program.cs",
-              "ViewState": "AgIAAHcEAAAAAAAAAAAQwIAEAAAAAAAAAAAAAA==",
+              "ToolTip": "Z:\\Desktop\\2306C2\\C#\\basics\\basics\\Program.cs*",
+              "RelativeToolTip": "basics\\Program.cs*",
+              "ViewState": "AgIAANMCAAAAAAAAAAAkwMYCAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T06:55:04.407Z",
               "EditorCaption": ""
