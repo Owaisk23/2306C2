@@ -3,11 +3,23 @@
 import express from 'express';
 // import path from 'path';
 // import fs from 'node:fs';
+// const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 import productRouter from './routes/productRoutes.mjs';
 
 const app = express()
 const port = 3000
 app.use(express.json());
+
+
+
+main().catch(err => console.log(err));
+
+async function main() {
+  await mongoose.connect('mongodb+srv://owaisahmedkhan:owais123@cluster0.mbgw7ps.mongodb.net/Mart');
+  console.log("MongoDB Connected!")
+  // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
+}
 
 // const dirname = path.resolve();
 

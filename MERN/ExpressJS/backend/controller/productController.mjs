@@ -1,25 +1,32 @@
 import fs from 'node:fs';
+import Product from '../model/productModel.mjs';
 
-const data = JSON.parse(fs.readFileSync('data.json', 'utf-8'));
+// const data = JSON.parse(fs.readFileSync('data.json', 'utf-8'));
 
-let products = data.products;
+// let products = data.products;
 
-let index = (req, res) => {
+
+// Fetching data from database
+let index = async (req, res) => {
   try {
-    res.status(200).json({ message: "Showing our products", products: products });
+    const products = await Product.find();
+    if(products.length > 0){
+      res.status(200).json({ message: "Products found", products: products });
+    } else {
+      res.status(404).json({ message: "No products found" });
+    }
   } catch (error) {
     console.log(error);
     res.status(500).json({ message: error.message })
   }
 }
 
-let singleProduct = (req, res) => {
+// fetch data by id
+let singleProduct = async (req, res) => {
   try {
-    let id = req.params.id
-    let product = products.find((prd) => {
-      return prd.id == id;
-    })
-     if (product) {
+    let id = req.params.id;
+    const product = await Product.findById(id);
+    if (product) {
       res.status(200).json({ message: "Product found", products: product });
     } else {
       res.status(404).json({ message: "No product found" });
@@ -29,6 +36,23 @@ let singleProduct = (req, res) => {
     res.status(500).json({ message: error.message })
   }
 }
+
+// let singleProduct = (req, res) => {
+//   try {
+//     let id = req.params.id
+//     let product = products.find((prd) => {
+//       return prd.id == id;
+//     })
+//      if (product) {
+//       res.status(200).json({ message: "Product found", products: product });
+//     } else {
+//       res.status(404).json({ message: "No product found" });
+//     }
+//   } catch (error) {
+//     console.log(error);
+//     res.status(500).json({ message: error.message })
+//   }
+// }
 
 let addProduct = (req, res) => {
   try {
