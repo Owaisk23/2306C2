@@ -689,53 +689,53 @@ using System.Linq;
 //Vehicle abc = new Vehicle("AAZ-789", "Metallic grey");
 //abc.Run();
 
-Car mercedez = new Car("TZ-8908", "Black", "Mercedez", "Benz C-Class", 20000000);
-//mercedez.Run();
-mercedez.Run(500);
+//Car mercedez = new Car("TZ-8908", "Black", "Mercedez", "Benz C-Class", 20000000);
+////mercedez.Run();
+//mercedez.Run(500);
 
-// Parent class | Base Class | Super Class
-public class Vehicle
-{
-    public string regNo;
-    public string color;
+//// Parent class | Base Class | Super Class
+//public class Vehicle
+//{
+//    public string regNo;
+//    public string color;
 
-    public Vehicle(string regno, string color)
-    {
-        this.regNo = regno;
-        this.color = color;
-    }
-    public void Run()
-    {
-        Console.WriteLine($"{this.regNo} vehicle started running");
-    }
-}
-//// Child class | Derived Class | Sub Class
-public class Car : Vehicle
-{
+//    public Vehicle(string regno, string color)
+//    {
+//        this.regNo = regno;
+//        this.color = color;
+//    }
+//    public void Run()
+//    {
+//        Console.WriteLine($"{this.regNo} vehicle started running");
+//    }
+//}
+////// Child class | Derived Class | Sub Class
+//public class Car : Vehicle
+//{
 
-    public string brand;
-    public string model;
-    public int price;
+//    public string brand;
+//    public string model;
+//    public int price;
 
-    public Car(string regno, string color, string brand, string model, int price) : base(regno, color)
-    {
-        this.brand = brand;
-        this.model = model;
-        this.price = price;
-    }
+//    public Car(string regno, string color, string brand, string model, int price) : base(regno, color)
+//    {
+//        this.brand = brand;
+//        this.model = model;
+//        this.price = price;
+//    }
 
-    //method overriding
-    public void Run()
-    {
-        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running");
-    }
-    //method overloading
-    public void Run(int speed)
-    {
-        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running at {speed} MPH.");
-    }
+//    //method overriding
+//    public void Run()
+//    {
+//        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running");
+//    }
+//    //method overloading
+//    public void Run(int speed)
+//    {
+//        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running at {speed} MPH.");
+//    }
 
-}
+//}
 //Vehicle abc = new Vehicle("AAZ-789", "Metallic grey");
 //abc.Run();
 
@@ -801,14 +801,14 @@ public class Car : Vehicle
 //        //totalAmount += this.basePrice;
 
 //    }
-//    //method overriding
+
 //    public void passWithoutPaying()
 //    {
 //        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running");
 //        nonPayingCars++;
 //    }
 
-//    //method overloading
+//    //method overriding
 //    public void Run(int speed)
 //    {
 //        Console.WriteLine($"{this.brand} {this.model} {this.regNo} started running at {speed} MPH.");
@@ -821,9 +821,9 @@ public class Car : Vehicle
 //ashar.ComplexDesign("Ashar Ahmed");
 //ashar.SimpleDesign();
 
-//FullStackDeveloper usama = new FullStackDeveloper();
-//usama.SimpleDesign();
-//usama.ComplexAPIs();
+FullStackDeveloper usama = new FullStackDeveloper();
+usama.SimpleDesign();
+usama.ComplexAPIs();
 
 //interface topics
 //{
@@ -832,63 +832,79 @@ public class Car : Vehicle
 //        Static,
 //       Abstract
 ////} 
-//interface FrontEndDevelopment
-//{
-//    public void SimpleDesign();
-//    public void ComplexDesign(string name);
+interface FrontEndDevelopment
+{
+    public void SimpleDesign();
+    public void ComplexDesign(string name);
 
-//}
+}
 
 
-//interface BackEndDevelopment
-//{
-//    public void SimpleCrud();
-//    public void ComplexAPIs();
-//    public void Authentication();
+interface BackEndDevelopment
+{
+    public void SimpleCrud();
+    public void ComplexAPIs();
+    public void Authentication();
 
-//}
+}
 
-//public class FrontEndDeveloper : FrontEndDevelopment
+public class FrontEndDeveloper : FrontEndDevelopment
+{
+    //method implementation
+    public void SimpleDesign()
+    {
+        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+    }
+    public void ComplexDesign(string name)
+    {
+        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, " +
+            $"Nextjs.");
+    }
+
+}
+//public class BackendDeveloper : BackEndDevelopment
 //{
 //    //method implementation
-//    public void SimpleDesign()
+//    public void SimpleCrud()
+//    {
+//        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+//    } public void ComplexAPIs()
+//    {
+//        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+//    } public void Authentication()
 //    {
 //        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
 //    }
-//    public void ComplexDesign(string name)
-//    {
-//        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, " +
-//            $"Nextjs.");
-//    }
+    
 
 //}
 
 
 
 //Multiple Inheritance
-//public class FullStackDeveloper : FrontEndDevelopment, BackEndDevelopment
-//{
-//    public void SimpleDesign()
-//    {
-//        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
-//    }
-//    public void ComplexDesign(string name)
-//    {
-//        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, Nextjs.");
-//    }
-//    public void SimpleCrud()
-//    {
-//        Console.WriteLine("We will provide you simple crud operations.");
-//    }
-//    public void ComplexAPIs()
-//    {
-//        Console.WriteLine($"We will provide you complex APIs.");
-//    }
-//    public void Authentication()
-//    {
-//        Console.WriteLine($" We will provide you Authentication.");
-//    }
-//}
+public class FullStackDeveloper : FrontEndDevelopment, BackEndDevelopment
+{
+    public void SimpleDesign()
+    {
+        Console.WriteLine("We will provide you simple and responsive design using HTML, CSS and JS.");
+    }
+    public void ComplexDesign(string name)
+    {
+        Console.WriteLine($"Hi this is {name}, We will provide you animated and responsive design using HTML, CSS, JS, React, Nextjs.");
+    }
+    public void SimpleCrud()
+    {
+        Console.WriteLine("We will provide you simple crud operations.");
+    }
+    public void ComplexAPIs()
+    {
+        Console.WriteLine($"We will provide you complex APIs.");
+    }
+    public void Authentication()
+    {
+        Console.WriteLine($" We will provide you Authentication.");
+    }
+}
 
 //Access  Modifiers
 //1. Public     | anyone can access from any where in the program.

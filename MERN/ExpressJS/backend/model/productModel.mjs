@@ -25,7 +25,7 @@ const productSchema = new Schema({
     min: [0, "Stock can't be less than 0"],},
   brand: {type: String, required: [true, "Brand is required"]},
   category: {type: String, required: [true, "Category is required"]},  
-  thumnail: {type: String, required: [true, "Thumnail is required"]},  
+  thumbnail: {type: String, required: [true, "Thumnail is required"]},  
   images: {type: String, required: [true, "Images is required"]},  
 });
 
