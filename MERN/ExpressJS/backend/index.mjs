@@ -6,17 +6,18 @@ import express from 'express';
 // const mongoose = require('mongoose');
 import mongoose from 'mongoose';
 import productRouter from './routes/productRoutes.mjs';
+import dotenv from 'dotenv';
 
 const app = express()
 const port = 3000
 app.use(express.json());
 
-
+dotenv.config();
 
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb+srv://owaisahmedkhan:owais123@cluster0.mbgw7ps.mongodb.net/Mart');
+  await mongoose.connect('mongodb+srv://owaisahmedkhan:owais123@cluster0.mbgw7ps.mongodb.net/Daraz');
   console.log("MongoDB Connected!")
   // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
 }

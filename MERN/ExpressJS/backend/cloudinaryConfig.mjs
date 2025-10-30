@@ -17,7 +17,7 @@ console.log(cloudinary.config());
 const storage = new CloudinaryStorage({
   cloudinary,
   params: {
-    folder: 'firstprojectassets', // Optional folder in Cloudinary
+    folder: '2306C2', // Optional folder in Cloudinary
     allowed_formats: ['jpg', 'png', 'jpeg', 'gif', 'webp','jfif'],
     // transformation: [{ width: 500, height: 500, crop: 'limit' }] // Auto-resize
   }
