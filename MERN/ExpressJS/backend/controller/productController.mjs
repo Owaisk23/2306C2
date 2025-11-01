@@ -88,40 +88,85 @@ let create = async (req, res) => {
   }
 };
 
+// image
+ let addProductWithImage=async(req,res)=>{
+try {
+console.log(req.files)
+let imagesArray = []
+req.files.forEach(element => {
+  console.log( "element",element.path)
+  imagesArray.push(element.path);
+});
+console.log(imagesArray)
 
-let addProductWithImage = async (req, res) => {
-  try {
-    console.log(req.file)
-    console.log(req.file.path);
-    let newProduct = new Product({
-      title: req.body.title,
-      description: req.body.description,
-      price: req.body.price,
-      discountedPercentage: req.body.discountPercentage,
-      rating: req.body.rating,
-      stock: req.body.stock,
-      brand: req.body.brand,
-      category: req.body.category,
-      thumbnail: req.file.path,
-      images: req.file.path
+// console.log(req.file.path);
+let newProduct = new Product({
+     title:req.body.title,
+        description:req.body.description,
+        price:req.body.price,
+        discountPercentage:req.body.discountPercentage,
+        rating:req.body.rating,
+        stock:req.body.stock,
+        brand:req.body.brand,
+        category:req.body.category,
+        thumbnail:imagesArray[0],
+        images:imagesArray
 
-    });
+});
 
-    let addprod = await Product.insertOne(newProduct);
-    if (!addprod) {
-      res.status(404).json({ message: "Failed to add product" });
-    } else {
+let addprod = await Product.insertOne(newProduct);
+if (!addprod) {
+       res.status(404).json({message:"Failed to add product"});
+} else {
 
-      res.status(200).json({
-        message: "Product added successfully",
-        product: addprod,
-      })
-    }
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({ message: "Internal server errror" });
-  }
+    res.status(200).json({
+    message:"Product added successfully",
+    product:addprod,
+})
+} 
+
+
+
+} catch (error) {
+   console.log(error) ;
+   res.status(500).json({message:"Internal server errror"});
 }
+}
+
+
+// let addProductWithImage = async (req, res) => {
+//   try {
+//     console.log(req.file)
+//     console.log(req.file.path);
+//     let newProduct = new Product({
+//       title: req.body.title,
+//       description: req.body.description,
+//       price: req.body.price,
+//       discountedPercentage: req.body.discountPercentage,
+//       rating: req.body.rating,
+//       stock: req.body.stock,
+//       brand: req.body.brand,
+//       category: req.body.category,
+//       thumbnail: req.file.path,
+//       images: req.file.path
+
+//     });
+
+//     let addprod = await Product.insertOne(newProduct);
+//     if (!addprod) {
+//       res.status(404).json({ message: "Failed to add product" });
+//     } else {
+
+//       res.status(200).json({
+//         message: "Product added successfully",
+//         product: addprod,
+//       })
+//     }
+//   } catch (error) {
+//     console.log(error);
+//     res.status(500).json({ message: "Internal server errror" });
+//   }
+// }
 
 
 // let singleProduct = (req, res) => {

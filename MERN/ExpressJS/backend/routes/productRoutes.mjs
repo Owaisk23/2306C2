@@ -8,7 +8,8 @@ productRouter
     .get('/:id', productController.singleProduct)
     // .post('/', productController.addProduct)
     .post('/', productController.create)
-    .post('/addproduct', upload.single('image'),productController.addProductWithImage);
+    // .post('/addproduct', upload.single('image'),productController.addProductWithImage);
+    .post('/addproduct', upload.array('image'),productController.addProductWithImage);
     // .delete('/:id', productController.deleteProduct);
 
 export default productRouter;
