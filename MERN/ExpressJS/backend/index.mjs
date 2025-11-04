@@ -6,6 +6,7 @@ import express from 'express';
 // const mongoose = require('mongoose');
 import mongoose from 'mongoose';
 import productRouter from './routes/productRoutes.mjs';
+import userRouter from './routes/userRoutes.mjs';
 import dotenv from 'dotenv';
 
 const app = express()
@@ -174,6 +175,7 @@ async function main() {
 
 
 app.use('/products', productRouter)
+app.use('/users', userRouter)
 
 
 
