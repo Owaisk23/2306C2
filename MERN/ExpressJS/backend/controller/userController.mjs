@@ -92,11 +92,33 @@ let Login =async (req, res) => {
 //  [0]    [1]
 
 
+const auth = async (req, res, next) => {
+  try {
+    const authHeader = req.headers.authorization;
+
+    if (!authHeader || !authHeader.startsWith('Bearer ')) {
+      return res.status(401).json({ msg: 'Authorization token missing or malformed' });
+    }
+
+    const token = authHeader.split(' ')[1];
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+
+    // Optionally attach decoded data to request for downstream use
+    req.user = decoded;
+
+    next();
+  } catch (error) {
+    console.error(error);
+    res.status(401).json({ msg: 'Invalid or expired token' });
+  }
+};
+
 
 const userController={
     index,
     Signup,
-    Login
+    Login, 
+    auth
 }
 
 export default userController;
