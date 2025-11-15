@@ -52,7 +52,7 @@ export const products = [
   },
 ];
 
-const Products = () => {
+const Products = ({allproducts}) => {
   return (
     <div className="container py-5">
       {/* Elegant Heading */}
@@ -86,15 +86,15 @@ const Products = () => {
 
       {/* Products */}
       <div className="row">
-        {products.map((item, index) => (
+        {allproducts.map((item, index) => (
           <div className="col-md-3 mb-4" key={index}>
             <Link to={`/product/${index}`} style={{ textDecoration: 'none', color: 'inherit' }}>
               <ProductCard
                 id={index}
-                img={item.img}
+                img={item.images}
                 title={item.title}
-                oldPrice={item.oldPrice}
-                newPrice={item.newPrice}
+                oldPrice={item.price}
+                newPrice={item.price - 30}
               />
             </Link>
           </div>
