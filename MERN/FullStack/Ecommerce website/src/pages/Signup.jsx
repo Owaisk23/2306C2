@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaUser, FaEnvelope, FaLock } from 'react-icons/fa';
+import axios from 'axios';
 
 const Signup = () => {
   const [formData, setFormData] = useState({
@@ -37,13 +38,38 @@ const Signup = () => {
     return newErrors;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit =async(e) => {
     e.preventDefault();
     const validationErrors = validate();
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
     } else {
       setErrors({});
+      
+       // Signup ApI call can be made here
+      try {
+        console.log(formData)
+        const register= await axios.post("http://localhost:3000/users/signup",formData);
+        if (register.status === 201 || register.status === 200) {
+            console.log(register.data.message)
+          alert(register.data.message);
+
+
+          
+          navigate('/login');
+          
+        } else {
+             alert("Registration failed. Please try again.");
+          
+        }
+
+      } catch (error) {
+        console.log(error)
+
+        
+      }
+
+
       alert('Signup Successful! 🎉');
       console.log('Form Data:', formData);
     }
