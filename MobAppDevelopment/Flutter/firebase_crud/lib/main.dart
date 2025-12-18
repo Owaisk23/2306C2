@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crud/Login.dart';
+import 'package:firebase_crud/MyCarosel.dart';
 import 'package:firebase_crud/addproduct.dart';
 // import 'package:firebase_crud/addproduct.dart';
 import 'package:firebase_crud/firebase_options.dart';
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: SplashScreen(),
+      // home: MyCarousel(),
       routes: {
         "/signup":(context)=> Signup(),
         "/products":(context)=>  Products(),
