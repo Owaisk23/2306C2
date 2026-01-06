@@ -61,6 +61,63 @@ person = {
 
 print(person['profession'])
 
+for key, value in person.items():
+    print(key, "=>", value)
+
+person.update({"education": "BSCS", "city": "KHI"})
+
+print(person.keys())
+print(person.values())
+
+def calculator(x, y, op):
+    if op == '+':
+        return x + y
+    elif op == '-':
+        return x - y
+    elif op == '*':
+        return x * y
+    elif op == '/':
+        return x / y
+    else:
+        return "Invalid operator"
+
+print(calculator(40,50, '*'))
+
+
+f = open("ali.txt", "w")
+f.write("HEllo from python programming")
+f.close()
+
+
+
+f = open("ali.txt", "r")
+content = f.read()
+f.close()
+
+print(content)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
